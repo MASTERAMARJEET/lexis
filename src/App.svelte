@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<main>Svelte Starter Template</main>
+<main>Lexis</main>
 
 <style>
 </style>
