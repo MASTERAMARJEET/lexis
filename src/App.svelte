@@ -16,7 +16,9 @@
 
 <main>
   <Router>
-    <Navbar {links}>LEXIS</Navbar>
+    <Navbar {links}>
+      <p class="text-3xl text-gray-200">LEXIS</p>
+    </Navbar>
     <Route path="/" component={Home} />
     {#each links as { to, component }}
       <Route path={to} {component} />

@@ -38,7 +38,7 @@
 
 <style>
   .line {
-    @apply absolute -mx-[50%] h-[2px] w-full rounded-[2px]  bg-current;
+    @apply absolute -mx-[50%] h-[2px] w-full rounded-[2px]  bg-white;
   }
   .open .line {
     top: 50% !important;
