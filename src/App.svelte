@@ -1,27 +1,27 @@
 <script lang="ts">
+  import { Route, Router } from 'svelte-routing'
   import Navbar from './lib/Navbar.svelte'
+  import About from './pages/About.svelte'
+  import Contact from './pages/Contact.svelte'
+  import Events from './pages/Events.svelte'
+  import Home from './pages/Home.svelte'
+  import Team from './pages/Team.svelte'
   const links = [
-    { href: '/', name: 'About' },
-    { href: '/', name: 'Events' },
-    { href: '/', name: 'Team' },
-    { href: '/', name: 'Contact Us' },
+    { to: '/about', name: 'About', component: About },
+    { to: '/events', name: 'Events', component: Events },
+    { to: '/team', name: 'Team', component: Team },
+    { to: '/contact', name: 'Contact Us', component: Contact },
   ]
 </script>
 
 <main>
-  <Navbar {links}>LEXIS</Navbar>
-  <div
-    class="grid h-screen w-full flex-col items-center justify-around lg:grid-cols-2 lg:px-8"
-  >
-    <p class="mx-6 mt-8 text-center text-4xl lg:col-start-2">
-      27th and 28th August 2022
-    </p>
-    <img
-      src="/ReadingSideDoodle.svg"
-      alt="Girl Reading Book"
-      class="mx-auto w-[80vw] md:w-[65vw] lg:row-start-1 lg:w-[50vw]"
-    />
-  </div>
+  <Router>
+    <Navbar {links}>LEXIS</Navbar>
+    <Route path="/" component={Home} />
+    {#each links as { to, component }}
+      <Route path={to} {component} />
+    {/each}
+  </Router>
 </main>
 
 <style>

@@ -1,14 +1,15 @@
 <script lang="ts">
-  export let links: { href: string; name: string }[]
   import { clsx } from 'clsx'
+  import { Link } from 'svelte-routing'
   import Hamburger from './Hamburger.svelte'
+  export let links: { to: string; name: string }[]
   let isOpen = false
 </script>
 
 <nav
   class="fixed z-10 flex w-full items-center justify-between border bg-gray-100 px-4 py-2 shadow sm:gap-x-[15%] sm:px-10"
 >
-  <a class="flex-1 sm:flex-initial" href="/"><slot>LOGO</slot></a>
+  <Link class="flex-1 sm:flex-initial" to="/"><slot>LOGO</slot></Link>
   <button
     on:click={() => (isOpen = !isOpen)}
     class="mx-2 cursor-pointer p-2 sm:hidden"
@@ -16,8 +17,8 @@
     <Hamburger open={isOpen} />
   </button>
   <div class="hidden w-full justify-between sm:flex">
-    {#each links as link}
-      <a class="text-xl" href={link.href}>{link.name}</a>
+    {#each links as { to, name }}
+      <Link class="text-xl" {to}>{name}</Link>
     {/each}
   </div>
   <div
@@ -28,8 +29,8 @@
       },
     )}
   >
-    {#each links as link}
-      <a href={link.href} class="text-2xl">{link.name}</a>
+    {#each links as { to, name }}
+      <Link {to} class="text-2xl">{name}</Link>
     {/each}
   </div>
 </nav>
