@@ -10,7 +10,7 @@
 </script>
 
 <div
-  class={clsx('relative h-4 w-6 cursor-pointer', $$props.class)}
+  class={clsx('relative h-4 w-6 cursor-pointer')}
   class:open
   on:click
   on:keydown
