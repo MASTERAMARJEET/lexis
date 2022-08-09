@@ -26,6 +26,7 @@ module.exports = {
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'warn',
     '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/no-unsafe-member-access': 'off',
     'max-len': [
       'warn',
       {
@@ -43,5 +44,11 @@ module.exports = {
     'svelte3/ignore-styles': () => true,
   },
   plugins: ['svelte3', '@typescript-eslint'],
-  ignorePatterns: ['node_modules', '*rc.*js', '*.config.*js', '*.config.ts'],
+  ignorePatterns: [
+    'node_modules',
+    'dist',
+    '*rc.*js',
+    '*.config.*js',
+    '*.config.ts',
+  ],
 }

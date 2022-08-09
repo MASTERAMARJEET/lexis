@@ -1,8 +1,8 @@
 <script lang="ts">
-  import clsx from 'clsx'
+  import type { LexisEvent } from 'src/types'
   import { Motion } from 'svelte-motion'
-  export let event: { name: string; image: string; bg: string; text: string }
-  export let selected: string
+  export let event: LexisEvent
+  export let selected: string | undefined
 </script>
 
 <Motion

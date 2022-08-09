@@ -3,8 +3,8 @@
 
   import { Motion } from 'svelte-motion'
 
-  export let selected
-  export let item: any
+  export let selected: string | undefined
+  export let event: any
 </script>
 
 <Motion
@@ -20,20 +20,20 @@
     on:click={(_) => (selected = undefined)}
   />
 </Motion>
-<Motion layoutId={item.name} let:motion>
+<Motion layoutId={event.name} let:motion>
   <div
     use:motion
     class={clsx(
       'absolute top-20 left-6 right-6 rounded-lg backdrop-blur shadow-lg',
     )}
-    style="background-color: {item.bg}; color: {item.text}"
+    style="background-color: {event.bg}; color: {event.text}"
     on:click={(_) => (selected = undefined)}
   >
     <div
-      class="m-4 h-[35vmax] {item.image} bg-contain bg-center bg-no-repeat"
+      class="m-4 h-[35vmax] {event.image} bg-contain bg-center bg-no-repeat"
     />
     <p class="mx-auto">
-      {item.name}
+      {event.name}
     </p>
   </div>
 </Motion>

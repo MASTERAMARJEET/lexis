@@ -2,9 +2,10 @@
   import Details from 'src/lib/Details.svelte'
   import Card from 'src/lib/Card.svelte'
   import { AnimateSharedLayout, Motion } from 'svelte-motion'
+  import type { LexisEvent } from 'src/types'
   import AnimatePresence from 'svelte-motion/src/components/AnimatePresence/AnimatePresence.svelte'
 
-  const events = [
+  const events: LexisEvent[] = [
     {
       name: 'Verse',
       image: 'bg-[url(/VERSE.png)]',
@@ -102,8 +103,8 @@
       text: '#000000',
     },
   ]
-  let selected: string
-  const lockScroll = (selected: string) => {
+  let selected: string | undefined
+  const lockScroll = (selected: string | undefined) => {
     if (selected) {
       document.body.scrollTop = 0
       document.documentElement.scrollTop = 0
@@ -131,6 +132,6 @@
     list={events.filter((event) => event.name === selected)}
     let:item
   >
-    <Details bind:selected {item} />
+    <Details bind:selected event={item} />
   </AnimatePresence>
 </AnimateSharedLayout>
