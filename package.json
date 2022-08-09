@@ -4,8 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "run-p dev:*",
+    "dev:routify": "routify",
+    "dev:vite": "vite",
+    "build": "routify -b && vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "format": "prettier --write ./**/*.{js,svelte,html,ts,json}",
@@ -16,6 +18,7 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.1.87",
+    "@roxi/routify": "^2.18.8",
     "@sveltejs/vite-plugin-svelte": "^1.0.1",
     "@tsconfig/svelte": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^5.30.7",
@@ -23,6 +26,7 @@
     "autoprefixer": "^10.4.8",
     "eslint": "^8.20.0",
     "eslint-plugin-svelte3": "^4.0.0",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
     "prettier-plugin-svelte": "^2.7.0",
@@ -39,7 +43,6 @@
     "vite-tsconfig-paths": "^3.5.0"
   },
   "dependencies": {
-    "clsx": "^1.2.1",
-    "svelte-routing": "^1.6.0"
+    "clsx": "^1.2.1"
   }
 }
