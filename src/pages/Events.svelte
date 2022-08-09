@@ -31,84 +31,15 @@
       text: '#000000',
     },
     {
-      name: '2nd Verse',
-      image: 'bg-[url(/VERSE.png)]',
-      bg: '#EBE0BC',
-      text: '#000000',
-    },
-    {
-      name: '2nd Spin The Wheel',
-      image: 'bg-[url(/SpinTheWheel.png)]',
-      bg: '#771C99',
-      text: '#F2EDDB',
-    },
-    {
-      name: '2nd Writing Lab',
-      image: 'bg-[url(/LexisWritingLab.png)]',
-      bg: '#1A992C',
-      text: '#000000',
-    },
-    {
-      name: '2nd Coffee Cigarates and More',
-      image: 'bg-[url(/CoffeeCigarettesandMore.png)]',
-      bg: '#4F41FF',
-      text: '#000000',
-    },
-    {
-      name: '3rd Verse',
-      image: 'bg-[url(/VERSE.png)]',
-      bg: '#EBE0BC',
-      text: '#000000',
-    },
-    {
-      name: '3rd Spin The Wheel',
-      image: 'bg-[url(/SpinTheWheel.png)]',
-      bg: '#771C99',
-      text: '#F2EDDB',
-    },
-    {
-      name: '3rd Writing Lab',
-      image: 'bg-[url(/LexisWritingLab.png)]',
-      bg: '#1A992C',
-      text: '#000000',
-    },
-    {
-      name: '3rd Coffee Cigarates and More',
-      image: 'bg-[url(/CoffeeCigarettesandMore.png)]',
-      bg: '#4F41FF',
-      text: '#000000',
-    },
-    {
-      name: '4rd Verse',
-      image: 'bg-[url(/VERSE.png)]',
-      bg: '#EBE0BC',
-      text: '#000000',
-    },
-    {
-      name: '4rd Spin The Wheel',
-      image: 'bg-[url(/SpinTheWheel.png)]',
-      bg: '#771C99',
-      text: '#F2EDDB',
-    },
-    {
-      name: '4rd Writing Lab',
-      image: 'bg-[url(/LexisWritingLab.png)]',
-      bg: '#1A992C',
-      text: '#000000',
-    },
-    {
-      name: '4rd Coffee Cigarates and More',
-      image: 'bg-[url(/CoffeeCigarettesandMore.png)]',
-      bg: '#4F41FF',
+      name: 'Impromptu',
+      image: 'bg-[url(/Impromptu.png)]',
+      bg: '#E6E7DC',
       text: '#000000',
     },
   ]
   let selected: string | undefined
   const lockScroll = (selected: string | undefined) => {
     if (selected) {
-      document.body.scrollTop = 0
-      document.documentElement.scrollTop = 0
-      document.body.style.height = '100vh'
       document.body.style.overflow = 'hidden'
     } else {
       document.body.style.overflow = 'scroll'
@@ -121,7 +52,7 @@
   <Motion let:motion={grid} layout>
     <div
       use:grid
-      class="grid grid-cols-2 gap-4 px-[10%] pt-24 pb-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12"
+      class="grid grid-cols-2 gap-4 px-[10%] pt-36 pb-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12"
     >
       {#each events as event (event.name)}
         <Card {event} bind:selected />
