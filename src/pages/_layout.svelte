@@ -1,12 +1,8 @@
 <script>
-  import NavBar from 'src/lib/Navbar/Bar.svelte'
+  import NavBar from 'src/lib/Navbar.svelte'
 </script>
 
-<div id="app">
-  <aside>
-    <NavBar />
-  </aside>
-  <main>
-    <slot />
-  </main>
-</div>
+<NavBar />
+<main>
+  <slot />
+</main>
