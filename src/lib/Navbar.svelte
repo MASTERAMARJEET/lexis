@@ -18,7 +18,7 @@
   </button>
   <div class="hidden w-full justify-between text-gray-200 sm:flex">
     {#each links as { to, name }}
-      <Link class="text-xl" {to}>{name}</Link>
+      <Link class="text-2xl" {to}>{name}</Link>
     {/each}
   </div>
   <div

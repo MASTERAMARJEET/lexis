@@ -17,7 +17,8 @@
 <main>
   <Router>
     <Navbar {links}>
-      <p class="text-3xl text-gray-200">LEXIS</p>
+      <img src="/mylogo.png" alt="LEXIS" class="mx-4 my-1 h-20 w-36 sm:w-44" />
+      <!-- <p class="text-3xl text-gray-200">LEXIS</p> -->
     </Navbar>
     <Route path="/" component={Home} />
     {#each links as { to, component }}

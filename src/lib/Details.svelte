@@ -23,9 +23,7 @@
 <Motion layoutId={event.name} let:motion>
   <div
     use:motion
-    class={clsx(
-      'absolute top-20 left-6 right-6 rounded-lg backdrop-blur shadow-lg',
-    )}
+    class={clsx('absolute top-36 left-6 right-6 rounded-lg shadow-lg')}
     style="background-color: {event.bg}; color: {event.text}"
     on:click={(_) => (selected = undefined)}
   >
