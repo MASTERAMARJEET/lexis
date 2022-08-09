@@ -27,7 +27,7 @@
     {
       name: 'Coffee Cigarates and More',
       image: 'bg-[url(/CoffeeCigarettesandMore.png)]',
-      bg: '#4F41FF',
+      bg: '#8CD4EB',
       text: '#000000',
     },
     {
