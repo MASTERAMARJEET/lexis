@@ -1,6 +1,6 @@
 <script lang="ts">
   import clsx from 'clsx'
-
+  import IonCloseRound from '~icons/ion/close-round'
   import { Motion } from 'svelte-motion'
 
   export let selected: string | undefined
@@ -23,15 +23,21 @@
 <Motion layoutId={event.name} let:motion>
   <div
     use:motion
-    class={clsx('absolute top-36 left-6 right-6 rounded-lg shadow-lg')}
+    class={clsx(
+      'absolute top-36 left-6 right-6 rounded-lg shadow-lg flex sm:flex-row flex-col items-center',
+    )}
     style="background-color: {event.bg}; color: {event.text}"
-    on:click={(_) => (selected = undefined)}
   >
     <div
-      class="m-4 h-[35vmax] {event.image} bg-contain bg-center bg-no-repeat"
+      class="m-8 aspect-[5/7] h-[35vmax] {event.image} bg-contain bg-center bg-no-repeat"
     />
-    <p class="mx-auto">
+    <p>
       {event.name}
     </p>
+    <button
+      on:click={(_) => (selected = undefined)}
+      class="absolute right-4 top-4 p-4"
+      ><IonCloseRound font-size={18} /></button
+    >
   </div>
 </Motion>
