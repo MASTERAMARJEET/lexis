@@ -15,7 +15,6 @@
   let designPublicity = [
     'Isha Bhagwat',
     'Sai Sagole',
-    'Nirmitee',
     'Shreyash Borkar',
     'Omkar Sahu',
     'Harshith Sairaj',
