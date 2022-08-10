@@ -13,10 +13,10 @@
 </script>
 
 <nav
-  class="fixed z-10 flex w-full items-center justify-between bg-black-lexis px-4 py-2 sm:gap-x-[15%] sm:px-10"
+  class="fixed z-10 flex w-full items-center justify-between bg-black px-4 py-2 sm:gap-x-[15%] sm:px-10"
 >
   <a href={$url('/')} class="flex-1 sm:flex-initial">
-    <img src="/mylogo.png" alt="LEXIS" class="mx-4 my-1 h-20 w-36 sm:w-44" />
+    <img src="/lexiis.png" alt="LEXIS" class="mx-4 aspect-[9/5] h-20" />
   </a>
   <!-- Non-mobile Nav -->
   <div class="hidden w-full justify-between text-gray-200 sm:flex">
@@ -51,7 +51,7 @@
 
 <style>
   .active {
-    @apply text-red-500;
+    @apply font-bold text-red-500;
   }
   a {
     text-transform: capitalize;
