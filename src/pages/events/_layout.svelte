@@ -81,7 +81,7 @@
     {
       name: 'Event X',
       link: 'event_x',
-      image: 'bg-[url(/EventX.png)]',
+      image: 'bg-[url(/EventX.jpeg)]',
       bg: '#000000',
       text: '#EAFF06',
     },
