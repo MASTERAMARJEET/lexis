@@ -57,7 +57,7 @@
     if (selected) {
       document.body.style.overflow = 'hidden'
     } else {
-      document.body.style.overflow = 'scroll'
+      document.body.style.overflow = 'auto'
     }
   }
   $: selected, lockScroll(selected)
@@ -67,7 +67,7 @@
   <Motion let:motion={grid} layout>
     <div
       use:grid
-      class="grid grid-cols-2 gap-4 py-8 px-[10%] sm:grid-cols-2 lg:grid-cols-3 lg:gap-12"
+      class="h-remain grid grid-cols-2 gap-4 bg-black-lexis py-8 px-[10%] sm:grid-cols-2 lg:grid-cols-3 lg:gap-12"
     >
       {#each events as event (event.link)}
         <Card bind:selected {event} />

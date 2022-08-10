@@ -5,3 +5,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+.p-nav {
+  padding-top: 6rem;
+}
+.h-remain {
+  height: calc(100vh - 6rem);
+}

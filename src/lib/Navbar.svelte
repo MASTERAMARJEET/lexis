@@ -21,7 +21,12 @@
   <!-- Non-mobile Nav -->
   <div class="hidden w-full justify-between text-gray-200 sm:flex">
     {#each links as { path, title, activeClass }}
-      <a href={$url(path)} class={clsx('text-2xl', activeClass)}> {title}</a>
+      <a
+        href={$url(path)}
+        class={clsx('text-2xl hover:scale-125 transition', activeClass)}
+      >
+        {title}</a
+      >
     {/each}
   </div>
   <!-- Mobile Nav -->
@@ -33,7 +38,7 @@
   </button>
   <div
     class={clsx(
-      'fixed flex top-0 left-0 h-full w-screen flex-col justify-evenly items-center bg-black-lexis sm:hidden duration-300 transition-all -z-10',
+      'fixed flex top-0 left-0 h-full w-screen flex-col justify-evenly items-center bg-black-lexis sm:hidden transition-all -z-10',
       {
         '-top-[100%]': !isOpen,
       },
@@ -51,7 +56,7 @@
 
 <style>
   .active {
-    @apply font-bold text-red-500;
+    @apply font-bold text-red-lexis;
   }
   a {
     text-transform: capitalize;

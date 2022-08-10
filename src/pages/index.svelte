@@ -1,12 +1,43 @@
+<script lang="ts">
+  import { url } from '@roxi/routify'
+</script>
+
 <div
-  class="grid w-full flex-col items-center justify-around lg:grid-cols-2 lg:px-8"
+  class="h-remain grid w-full items-center justify-around bg-black-lexis lg:grid-cols-2 lg:px-8"
 >
-  <p class="mx-6 mt-8 text-center text-4xl lg:col-start-2">
-    27th and 28th August 2022
-  </p>
-  <img
-    src="/ReadingSideDoodle.svg"
-    alt="Girl Reading Book"
-    class="mx-auto w-[80vw] md:w-[65vw] lg:row-start-1 lg:w-[50vw]"
-  />
+  <div class="flex flex-col items-center">
+    <img
+      src="/lexiis_transparent.png"
+      alt="logo"
+      class="mx-auto w-[80vw] md:w-[65vw] lg:row-start-1 lg:w-[50vw]"
+    />
+    <p class="cursive gray-white">The Literary Fest</p>
+  </div>
+  <div class="flex flex-col  lg:col-start-2">
+    <p class="display text-white-lexis">27th and 28th August 2022</p>
+    <p class="display text-white-lexis">@ IISER Kolkata</p>
+    <div class="mx-auto my-6 transition hover:scale-110">
+      <a href="/events" class="rounded bg-red-lexis p-4 font-bold"
+        >Explore Events</a
+      >
+    </div>
+  </div>
 </div>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+  .cursive {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+  }
+  .gray-white {
+    color: rgba(242, 242, 242, 0.7);
+  }
+  .display {
+    @apply mx-6 my-4 text-center text-4xl;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3rem;
+  }
+</style>
