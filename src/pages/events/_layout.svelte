@@ -40,8 +40,8 @@
       name: 'Impromptu',
       link: 'impromptu',
       image: 'bg-[url(/Impromptu.png)]',
-      bg: '#E6E7DC',
-      text: '#000000',
+      bg: '#000000',
+      text: '#98907C',
     },
     {
       name: 'Sci-Fi Lite',
@@ -54,22 +54,22 @@
       name: 'Opus',
       link: 'opus',
       image: 'bg-[url(/Opus.png)]',
-      bg: '#ebe0bc',
-      text: '#000000',
+      bg: '#252018',
+      text: '#FCF6E3',
     },
     {
       name: 'Mad Ads',
       link: 'mad_ads',
       image: 'bg-[url(/MadAds.png)]',
-      bg: '#771C99',
-      text: '#F2EDDB',
+      bg: '#130101',
+      text: '#FFF3E6',
     },
     {
       name: 'Dublin Wager',
       link: 'dublin_wager',
       image: 'bg-[url(/TODO.png)]',
-      bg: '#1A992C',
-      text: '#000000',
+      bg: '#000000',
+      text: '#ffffff',
     },
     {
       name: 'Debate',
@@ -82,8 +82,8 @@
       name: 'Event X',
       link: 'event_x',
       image: 'bg-[url(/EventX.jpeg)]',
-      bg: '#000000',
-      text: '#EAFF06',
+      bg: '#231F20',
+      text: '#ffffff',
     },
     {
       name: 'Reading Room',
@@ -92,20 +92,20 @@
       bg: '#E6E7DC',
       text: '#000000',
     },
-      {
+    {
       name: 'Board Games Night',
       link: 'boardgames',
       image: 'bg-[url(/BoardGameNight.png)]',
-      bg: '#E6E7DC',
+      bg: '#EDD7B0',
       text: '#000000',
-    },    {
+    },
+    {
       name: 'Open Mic',
       link: 'open_mic',
       image: 'bg-[url(/OpenMic.png)]',
-      bg: '#771C99',
-      text: '#000000',
+      bg: '#010101',
+      text: '#FDF9E5',
     },
-
   ]
   let selected: string | undefined
   onMount(() => (selected = getEventLink()))

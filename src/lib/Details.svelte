@@ -28,12 +28,12 @@
   <div
     use:motion
     class={clsx(
-      'absolute h-[76vh] top-36 p-6 left-6 right-6 rounded-lg shadow-lg flex lg:flex-row flex-col items-center overflow-auto',
+      'absolute lg:top-36 lg:bottom-8 lg:left-8 lg:right-8 top-28 p-6 left-4 right-4 bottom-4 rounded-lg flex lg:flex-row flex-col items-center overflow-auto',
     )}
     style="background-color: {event.bg}; color: {event.text}"
   >
     <div
-      class="aspect-[5/7] min-h-[35vmax] lg:mr-8 {event.image} bg-contain bg-center bg-no-repeat"
+      class="aspect-[5/7] min-h-[50vmax] lg:mr-8 lg:min-h-[35vmax] {event.image} bg-contain bg-center bg-no-repeat"
     />
     <div class="lg:text-lg">
       <slot />
@@ -43,7 +43,7 @@
         $goto('/events')
         selected = undefined
       }}
-      class="absolute right-4 top-4 p-4"
+      class="absolute right-1 top-1 p-4 sm:right-4 sm:top-4"
       ><IonCloseRound font-size={18} /></button
     >
   </div>

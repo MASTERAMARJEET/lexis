@@ -21,7 +21,7 @@
       selected = event.link
     }}
     use:motion
-    class="flex items-center justify-center rounded-lg p-4 focus:outline-none md:p-8 lg:text-lg"
+    class="flex items-center justify-center rounded-lg p-4 uppercase focus:outline-none md:p-8 lg:text-lg"
     style="background-color: {event.bg}; color: {event.text};"
   >
     {event.name}

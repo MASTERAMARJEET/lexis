@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { url } from '@roxi/routify'
 </script>
 
 <div
@@ -11,7 +10,7 @@
       alt="logo"
       class="mx-auto w-[80vw] md:w-[65vw] lg:row-start-1 lg:w-[50vw]"
     />
-    <p class="cursive text-white-lexis">The Literary Fest</p>
+    <p class="cursive text-center text-white-lexis">The Literary Fest</p>
   </div>
   <div class="flex flex-col  lg:col-start-2">
     <p class="display text-white-lexis">27th and 28th August 2022</p>

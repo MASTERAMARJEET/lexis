@@ -2,6 +2,7 @@
   import Blockquote from 'src/md/Blockquote.svelte'
   import H1 from 'src/md/H1.svelte'
   import P from 'src/md/P.svelte'
+  import Strong from 'src/md/Strong.svelte'
 </script>
 
 <H1>Sci-Fi Lite</H1>

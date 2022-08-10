@@ -38,17 +38,17 @@
   </button>
   <div
     class={clsx(
-      'fixed flex top-0 left-0 h-full w-screen flex-col justify-evenly items-center bg-black-lexis sm:hidden transition-all -z-10',
+      'fixed flex top-0 left-0 h-full w-screen flex-col justify-evenly items-center bg-black sm:hidden transition-all -z-10',
       {
         '-top-[100%]': !isOpen,
       },
     )}
   >
-    {#each links as { path, title }}
+    {#each links as { path, title, activeClass }}
       <a
         href={$url(path)}
         on:click={() => (isOpen = !isOpen)}
-        class="text-2xl text-gray-200">{title}</a
+        class={clsx('text-2xl text-gray-200', activeClass)}>{title}</a
       >
     {/each}
   </div>

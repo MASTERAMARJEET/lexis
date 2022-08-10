@@ -1,5 +1,5 @@
 <div
-  class="h-remain font flex w-full flex-col items-center justify-around px-[6vw] text-center md:text-lg lg:text-xl"
+  class="font flex w-full flex-col items-center justify-around gap-6 px-[6vw] text-center md:text-xl lg:gap-10 lg:text-2xl"
 >
   <p
     class="mx-6 mt-8 text-center text-4xl font-bold text-white sm:text-5xl lg:col-start-2"
