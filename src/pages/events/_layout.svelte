@@ -50,6 +50,34 @@
       bg: '#000000',
       text: '#EAFF06',
     },
+    {
+      name: 'Opus',
+      link: 'opus',
+      image: 'bg-[url(/Sci-Fi.png)]',
+      bg: '#000000',
+      text: '#EAFF06',
+    },
+    {
+      name: 'Mad Ads',
+      link: 'mad_ads',
+      image: 'bg-[url(/Sci-Fi.png)]',
+      bg: '#000000',
+      text: '#EAFF06',
+    },
+    {
+      name: 'Dublin Wager',
+      link: 'dublin_wager',
+      image: 'bg-[url(/Sci-Fi.png)]',
+      bg: '#000000',
+      text: '#EAFF06',
+    },
+    {
+      name: 'Debate',
+      link: 'debate',
+      image: 'bg-[url(/Sci-Fi.png)]',
+      bg: '#000000',
+      text: '#EAFF06',
+    },
   ]
   let selected: string | undefined
   onMount(() => (selected = getEventLink()))
