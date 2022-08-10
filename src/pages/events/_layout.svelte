@@ -4,40 +4,55 @@
   import { AnimateSharedLayout, Motion } from 'svelte-motion'
   import type { LexisEvent } from 'src/types'
   import AnimatePresence from 'svelte-motion/src/components/AnimatePresence/AnimatePresence.svelte'
+  import { onMount } from 'svelte'
+  import { getEventLink } from 'src/lib/utils'
 
   const events: LexisEvent[] = [
     {
       name: 'Verse',
+      link: 'verse',
       image: 'bg-[url(/VERSE.png)]',
       bg: '#EBE0BC',
       text: '#000000',
     },
     {
       name: 'Spin The Wheel',
+      link: 'spin_the_wheel',
       image: 'bg-[url(/SpinTheWheel.png)]',
       bg: '#771C99',
       text: '#F2EDDB',
     },
     {
       name: 'Writing Lab',
+      link: 'writing_lab',
       image: 'bg-[url(/LexisWritingLab.png)]',
       bg: '#1A992C',
       text: '#000000',
     },
     {
-      name: 'Coffee Cigarates and More',
+      name: 'Coffee, Cigarates and More',
+      link: 'coffee_cigarates_and_more',
       image: 'bg-[url(/CoffeeCigarettesandMore.png)]',
       bg: '#8CD4EB',
       text: '#000000',
     },
     {
       name: 'Impromptu',
+      link: 'impromptu',
       image: 'bg-[url(/Impromptu.png)]',
       bg: '#E6E7DC',
       text: '#000000',
     },
+    {
+      name: 'Sci-Fi Lite',
+      link: 'sci-fi_lite',
+      image: 'bg-[url(/Sci-Fi.png)]',
+      bg: '#000000',
+      text: '#EAFF06',
+    },
   ]
   let selected: string | undefined
+  onMount(() => (selected = getEventLink()))
   const lockScroll = (selected: string | undefined) => {
     if (selected) {
       document.body.style.overflow = 'hidden'
@@ -52,17 +67,19 @@
   <Motion let:motion={grid} layout>
     <div
       use:grid
-      class="grid grid-cols-2 gap-4 px-[10%] pt-36 pb-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12"
+      class="grid grid-cols-2 gap-4 px-[10%] pt-8 pb-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12"
     >
-      {#each events as event (event.name)}
-        <Card {event} bind:selected />
+      {#each events as event (event.link)}
+        <Card bind:selected {event} />
       {/each}
     </div>
   </Motion>
   <AnimatePresence
-    list={events.filter((event) => event.name === selected)}
+    list={events.filter((event) => event.link === selected)}
     let:item
   >
-    <Details bind:selected event={item} />
+    <Details bind:selected event={item}>
+      <slot />
+    </Details>
   </AnimatePresence>
 </AnimateSharedLayout>
