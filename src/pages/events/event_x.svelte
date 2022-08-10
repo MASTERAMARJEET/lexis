@@ -17,9 +17,9 @@ By now, you might have realised we haven't really said anything about the event.
 
 <P>
   <Strong>Organiser:</Strong>
-  Satbhav Voleti
+  Sai Srinivas Dhavala
 </P>
 <P>
   <Strong>Contact:</Strong>
-  + 91 9502575535
+  + 91 96478 05904
 </P>

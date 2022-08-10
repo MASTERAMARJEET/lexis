@@ -5,7 +5,7 @@
   import Strong from 'src/md/Strong.svelte'
 </script>
 
-<H1>Coffee, Cigarates and More</H1>
+<H1>Coffee, Cigarettes and More</H1>
 <P>
   Story Writing is an art. Coherent story writing in a short period is an art
   more remarkable still. And a cohesive story, when all your trains of thought
@@ -18,9 +18,8 @@
   nonsense surrounding us, pen down your thoughts, and bring out the storyteller
   in you!
 </P>
-<H2>Deets and rules:</H2>
 <P>
   <Strong>Organiser:</Strong>
   Satbhav Voleti
 </P>
-<P><Strong>Contact:</Strong></P>
+<P><Strong>Contact: +91 95024 75535</Strong></P>

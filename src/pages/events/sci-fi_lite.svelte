@@ -20,3 +20,12 @@
   writing (and drawing!) event wherein we will provide the instructions and
   questions a week before Lexis 2.0 takes place. Stay tuned!
 </P>
+
+<P>
+  <Strong>Organiser:</Strong>
+  Ishita Jena
+</P>
+<P>
+  <Strong>Contact:</Strong>
+  +91 919337 918392
+</P>

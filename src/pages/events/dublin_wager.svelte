@@ -8,7 +8,7 @@
 
 <H1>Dublin Wager</H1>
 <P>
-Want to answer some brain racking and mind = blown! type questions? To cater to the tinkering brains buzzing with cool facts and interesting trivia, we bring you the Lexis 2.0 Quiz Event - QUIZIOSITY. It will be a GENERAL quiz hosted by well known quizmaster - Arijit Sen, who is an alumnus of Monash University, Australia and currently a creative strategist at Capgemini Technologies. 
+Want to answer some brain racking and mind = blown! type questions? To cater to the tinkering brains buzzing with cool facts and interesting trivia, we bring you the flagship LEXIS quiz event, Dublin Wager. It will be a GENERAL quiz hosted by well known quizmaster - Arijit Sen, who is an alumnus of Monash University, Australia and currently a creative strategist at Capgemini Technologies. 
 
 
 </P>
@@ -47,6 +47,6 @@ Top 3 teams will be awarded prizes.
 </List>
 <P>
   <Strong>Organiser:</Strong>
-  Abhisekh Sunamudi
+  Abhishek Sunamudi
 </P>
-<P><Strong>Contact:</Strong></P>
+<P><Strong>Contact: +91 6371 770710</Strong></P>
