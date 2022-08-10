@@ -10,11 +10,17 @@
       alt="logo"
       class="mx-auto w-[80vw] md:w-[65vw] lg:row-start-1 lg:w-[50vw]"
     />
-    <p class="cursive text-center text-white-lexis">The Literary Fest</p>
+    <p class="cursive text-center text-5xl text-white-lexis sm:text-7xl">
+      The Literary Fest
+    </p>
   </div>
-  <div class="flex flex-col  lg:col-start-2">
-    <p class="display text-white-lexis">27th and 28th August 2022</p>
-    <p class="display text-white-lexis">@ IISER Kolkata</p>
+  <div class="flex flex-col  px-2 lg:col-start-2">
+    <p class="display my-4 text-center text-4xl text-white-lexis sm:text-5xl">
+      27th and 28th August 2022
+    </p>
+    <p class="display my-4 text-center text-4xl text-white-lexis sm:text-5xl">
+      @ IISER Kolkata
+    </p>
     <div class="mx-auto my-6 transition hover:scale-110">
       <a href="/events" class="rounded bg-red-lexis p-4 font-bold"
         >Explore Events</a
@@ -29,11 +35,8 @@
 
   .cursive {
     font-family: 'Great Vibes', cursive;
-    font-size: 4rem;
   }
   .display {
-    @apply mx-6 my-4 text-center text-4xl;
     font-family: 'Fredericka the Great', cursive;
-    font-size: 3rem;
   }
 </style>
