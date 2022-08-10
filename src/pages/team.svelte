@@ -1,6 +1,4 @@
 <script lang="ts">
-  import H1 from 'src/md/H1.svelte'
-
   let committeeNames = ['R.R. Tanya', 'Sanchay Agarwal', 'Amarjeet Kumar']
 
   let eventOrganizers = [
@@ -17,14 +15,16 @@
   let designPublicity = [
     'Isha Bhagwat',
     'Sai Sagole',
+    'Nirmitee',
+    'Shreyash Borkar',
     'Omkar Sahu',
     'Harshith Sairaj',
   ]
 </script>
 
 <div class="px-8">
-  <div class="section-head">Committee</div>
-  <div class="team-names">
+  <div class="head-font mt-14 text-center font-bold">Committee</div>
+  <div class="flex flex-row flex-wrap justify-around gap-6 sm:gap-8 lg:gap-12">
     {#each committeeNames as name}
       <div class="team-mem-name">
         {name}
@@ -32,8 +32,8 @@
     {/each}
   </div>
 
-  <div class="section-head">Event Organizers</div>
-  <div class="team-names">
+  <div class="head-font mt-14 text-center font-bold">Event Organizers</div>
+  <div class="flex flex-row flex-wrap justify-around gap-6 sm:gap-8 lg:gap-12">
     {#each eventOrganizers as name}
       <div class="team-mem-name">
         {name}
@@ -41,8 +41,8 @@
     {/each}
   </div>
 
-  <div class="section-head">Design and Publicity</div>
-  <div class="team-names">
+  <div class="head-font mt-14 text-center font-bold">Design and Publicity</div>
+  <div class="flex flex-row flex-wrap justify-around gap-6 sm:gap-8 lg:gap-12">
     {#each designPublicity as name}
       <div class="team-mem-name">
         {name}
@@ -52,18 +52,13 @@
 </div>
 
 <style>
-  .section-head {
-    @apply my-[2vmax] text-center font-bold;
+  .head-font {
     font-size: 300%;
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-  }
-  .team-names {
-    @apply flex flex-row flex-wrap justify-around gap-16;
   }
   .team-mem-name {
     @apply w-min text-center;
     font-size: 175%;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    text-align: center;
   }
 </style>
