@@ -3,7 +3,7 @@
 </script>
 
 <div
-  class="h-remain grid w-full items-center justify-around bg-black-lexis lg:grid-cols-2 lg:px-8"
+  class="h-remain grid w-full items-center justify-around lg:grid-cols-2 lg:px-8"
 >
   <div class="flex flex-col items-center">
     <img
@@ -11,7 +11,7 @@
       alt="logo"
       class="mx-auto w-[80vw] md:w-[65vw] lg:row-start-1 lg:w-[50vw]"
     />
-    <p class="cursive gray-white">The Literary Fest</p>
+    <p class="cursive text-white-lexis">The Literary Fest</p>
   </div>
   <div class="flex flex-col  lg:col-start-2">
     <p class="display text-white-lexis">27th and 28th August 2022</p>
@@ -31,9 +31,6 @@
   .cursive {
     font-family: 'Great Vibes', cursive;
     font-size: 4rem;
-  }
-  .gray-white {
-    color: rgba(242, 242, 242, 0.7);
   }
   .display {
     @apply mx-6 my-4 text-center text-4xl;

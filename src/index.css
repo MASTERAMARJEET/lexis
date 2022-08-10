@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  @apply bg-black-lexis text-white-lexis;
 }
 
 .p-nav {
