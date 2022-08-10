@@ -98,7 +98,14 @@
       image: 'bg-[url(/BoardGameNight.png)]',
       bg: '#E6E7DC',
       text: '#000000',
+    },    {
+      name: 'Open Mic',
+      link: 'open_mic',
+      image: 'bg-[url(/OpenMic.png)]',
+      bg: '#E6E7DC',
+      text: '#000000',
     },
+
   ]
   let selected: string | undefined
   onMount(() => (selected = getEventLink()))
