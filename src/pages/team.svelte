@@ -1,5 +1,5 @@
 <div
-  class="grid h-screen w-full flex-col items-center justify-around lg:grid-cols-2 lg:px-8"
+  class="grid w-full flex-col items-center justify-around lg:grid-cols-2 lg:px-8"
 >
   <p class="mx-6 mt-8 text-center text-4xl lg:col-start-2">Team</p>
   <img
