@@ -3,6 +3,6 @@
 </script>
 
 <NavBar />
-<main class="p-28">
+<main class="py-28">
   <slot />
 </main>

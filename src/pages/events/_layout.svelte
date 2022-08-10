@@ -67,7 +67,7 @@
   <Motion let:motion={grid} layout>
     <div
       use:grid
-      class="grid grid-cols-2 gap-4 px-[10%] pt-8 pb-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12"
+      class="grid grid-cols-2 gap-4 py-8 px-[10%] sm:grid-cols-2 lg:grid-cols-3 lg:gap-12"
     >
       {#each events as event (event.link)}
         <Card bind:selected {event} />

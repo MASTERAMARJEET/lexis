@@ -28,14 +28,16 @@
   <div
     use:motion
     class={clsx(
-      'absolute top-36 left-6 right-6 rounded-lg shadow-lg flex sm:flex-row flex-col items-center',
+      'absolute h-[76vh] top-36 p-6 left-6 right-6 rounded-lg shadow-lg flex lg:flex-row flex-col items-center overflow-auto',
     )}
     style="background-color: {event.bg}; color: {event.text}"
   >
     <div
-      class="m-8 aspect-[5/7] h-[35vmax] {event.image} bg-contain bg-center bg-no-repeat"
+      class="aspect-[5/7] min-h-[35vmax] lg:mr-8 {event.image} bg-contain bg-center bg-no-repeat"
     />
-    <slot />
+    <div class="lg:text-lg">
+      <slot />
+    </div>
     <button
       on:click={(_) => {
         $goto('/events')
