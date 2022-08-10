@@ -30,7 +30,7 @@
       text: '#000000',
     },
     {
-      name: 'Coffee, Cigarates and More',
+      name: 'Coffee, Cigarettes and More',
       link: 'coffee_cigarates_and_more',
       image: 'bg-[url(/CoffeeCigarettesandMore.png)]',
       bg: '#8CD4EB',
@@ -102,7 +102,7 @@
       name: 'Open Mic',
       link: 'open_mic',
       image: 'bg-[url(/OpenMic.png)]',
-      bg: '#E6E7DC',
+      bg: '#771C99',
       text: '#000000',
     },
 
