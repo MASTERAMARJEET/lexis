@@ -1,6 +1,8 @@
 <script lang="ts">
   // @ts-ignore
   import logo from 'src/assets/lexiis_transparent.png?width=700&webp'
+  import { prefetch } from '@roxi/routify'
+  prefetch('/events')
 </script>
 
 <div
@@ -24,7 +26,7 @@
       @ IISER Kolkata
     </p>
     <div class="mx-auto my-6 transition hover:scale-110">
-      <a href="/events" class="rounded bg-red-lexis p-4 font-bold"
+      <a href="/events" class="rounded bg-red-lexis p-4 font-bold text-white"
         >Explore Events</a
       >
     </div>
