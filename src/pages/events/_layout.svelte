@@ -1,9 +1,9 @@
 <script lang="ts">
   import Details from 'src/lib/Details.svelte'
   import Card from 'src/lib/Card.svelte'
-  import { AnimateSharedLayout, Motion } from 'svelte-motion'
-  import type { LexisEvent } from 'src/types'
+  import AnimateSharedLayout from 'svelte-motion/src/components/AnimateSharedLayout/AnimateSharedLayout.svelte'
   import AnimatePresence from 'svelte-motion/src/components/AnimatePresence/AnimatePresence.svelte'
+  import type { LexisEvent } from 'src/types'
   import { onMount } from 'svelte'
   import { getEventLink } from 'src/lib/utils'
 
@@ -120,16 +120,13 @@
 </script>
 
 <AnimateSharedLayout type="crossfade">
-  <Motion let:motion={grid} layout>
-    <div
-      use:grid
-      class="h-remain grid grid-cols-2 gap-4 py-8 px-[10%] sm:grid-cols-2 lg:grid-cols-3 lg:gap-12"
-    >
-      {#each events as event (event.link)}
-        <Card bind:selected {event} />
-      {/each}
-    </div>
-  </Motion>
+  <div
+    class="h-remain grid grid-cols-2 gap-4 py-8 px-[10%] sm:grid-cols-2 lg:grid-cols-3 lg:gap-12"
+  >
+    {#each events as event (event.link)}
+      <Card bind:selected {event} />
+    {/each}
+  </div>
   <AnimatePresence
     list={events.filter((event) => event.link === selected)}
     let:item
