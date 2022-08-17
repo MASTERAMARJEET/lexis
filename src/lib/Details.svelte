@@ -2,10 +2,9 @@
   import clsx from 'clsx'
   import IonCloseRound from '~icons/ion/close-round'
   import { Motion } from 'svelte-motion'
-  import { goto } from '@roxi/routify'
 
-  export let selected: string | undefined
   export let event: any
+  export let closeHandler: () => void
 </script>
 
 <Motion
@@ -18,10 +17,7 @@
     aria-label="overlay"
     class="absolute top-0 left-0 right-0 -bottom-24 bg-[rgb(0,0,0,0.4)]"
     use:motion
-    on:click={(_) => {
-      $goto('/events')
-      selected = undefined
-    }}
+    on:click={closeHandler}
   />
 </Motion>
 <Motion layoutId={event.link} let:motion>
@@ -41,10 +37,7 @@
       <slot />
     </div>
     <button
-      on:click={(_) => {
-        $goto('/events')
-        selected = undefined
-      }}
+      on:click={closeHandler}
       class="absolute right-1 top-1 p-4 sm:right-4 sm:top-4"
       ><IonCloseRound font-size={18} /></button
     >

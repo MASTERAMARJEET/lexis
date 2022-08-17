@@ -3,7 +3,7 @@
 
   import type { LexisEvent } from 'src/types'
   import { Motion } from 'svelte-motion'
-  export let event: LexisEvent
+  export let thing: LexisEvent
   export let selected: string | undefined
   const activeStyle = { scale: 1.1, filter: 'grayscale(0)' }
 </script>
@@ -12,18 +12,18 @@
   let:motion
   whileHover={activeStyle}
   whileFocus={activeStyle}
-  layoutId={event.link}
+  layoutId={thing.link}
   layout
 >
   <button
     on:click={(_) => {
-      $goto(`./${event.link}`)
-      selected = event.link
+      $goto(`./${thing.link}`)
+      selected = thing.link
     }}
     use:motion
     class="flex items-center justify-center rounded-lg p-4 uppercase focus:outline-none md:p-8 lg:text-lg"
-    style="background-color: {event.bg}; color: {event.text};"
+    style="background-color: {thing.bg}; color: {thing.text};"
   >
-    {event.name}
+    {thing.name}
   </button>
 </Motion>

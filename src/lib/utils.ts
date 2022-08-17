@@ -1,5 +1,5 @@
-export const getEventLink = () => {
-  const link = window.location.href.replace(/.*\/events/g, '')
+export const getSubLink = (main: string) => {
+  const link = window.location.href.replace(new RegExp(`.*/${main}`, 'g'), '')
   if (!link) return undefined
   return link.slice(1)
 }
