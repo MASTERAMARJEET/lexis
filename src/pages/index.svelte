@@ -1,4 +1,6 @@
 <script lang="ts">
+  // @ts-ignore
+  import logo from 'src/assets/lexiis_transparent.png?width=700&webp'
 </script>
 
 <div
@@ -6,7 +8,7 @@
 >
   <div class="flex flex-col items-center">
     <img
-      src="/lexiis_transparent.png"
+      src={logo}
       alt="logo"
       class="mx-auto w-[80vw] md:w-[65vw] lg:row-start-1 lg:w-[50vw]"
     />

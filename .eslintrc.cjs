@@ -29,6 +29,7 @@ module.exports = {
     '@typescript-eslint/no-unsafe-member-access': 'warn',
     '@typescript-eslint/no-unsafe-assignment': 'warn',
     '@typescript-eslint/no-unsafe-call': 'warn',
+    '@typescript-eslint/ban-ts-comment': 'off',
     'max-len': [
       'warn',
       {

@@ -32,8 +32,10 @@
     )}
     style="background-color: {event.bg}; color: {event.text}"
   >
-    <div
-      class="aspect-[5/7] min-h-[50vmax] lg:mr-8 lg:min-h-[35vmax] {event.image} bg-contain bg-center bg-no-repeat"
+    <img
+      src={event.image}
+      alt={event.name}
+      class="h-[50vmax] min-h-[50vmax] lg:mr-8 lg:h-[35vmax] lg:min-h-[35vmax]"
     />
     <div class="lg:text-lg">
       <slot />
