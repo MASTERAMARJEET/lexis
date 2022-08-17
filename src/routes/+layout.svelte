@@ -1,5 +1,9 @@
 <script>
-  import '../app.css'
+  import 'src/index.css'
+  import NavBar from '$lib/Navbar.svelte'
 </script>
 
-<slot />
+<NavBar />
+<main class="p-nav">
+  <slot />
+</main>

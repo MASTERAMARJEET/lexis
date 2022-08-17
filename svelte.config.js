@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-auto'
 import preprocess from 'svelte-preprocess'
+import Icons from 'unplugin-icons/vite'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -12,6 +13,9 @@ const config = {
   ],
 
   kit: {
+    alias: {
+      'src/*': './src/*',
+    },
     adapter: adapter(),
   },
 }

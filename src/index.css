@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  @apply bg-black-lexis text-white-lexis;
+}
+
+.p-nav {
+  padding-top: 6rem;
+}
+.h-remain {
+  height: calc(100vh - 6rem);
+}
