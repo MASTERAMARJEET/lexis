@@ -10,7 +10,7 @@
   $: getClass = (path: string) => ($isActive(path) ? 'active' : '')
   $: links = children.map(({ path, title }) => ({
     path,
-    title,
+    title: title.replace(/_/g, ' '),
     activeClass: getClass(path),
   }))
 </script>
