@@ -1,5 +1,5 @@
 <script lang="ts">
-  let committeeNames = ['R.R. Tanya', 'Sanchay Agarwal', 'Amarjeet Kumar']
+  let committeeNames = ['Radha Tanya', 'Sanchay Agarwal', 'Amarjeet Kumar']
 
   let eventOrganizers = [
     'Satbhav Voleti',

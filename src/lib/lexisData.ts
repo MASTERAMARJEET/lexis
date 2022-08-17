@@ -8,6 +8,7 @@ import impromptu from 'src/assets/Impromptu.png?width=350&webp'
 import scifi from 'src/assets/Sci-Fi.png?width=350&webp'
 import opus from 'src/assets/Opus.png?width=350&webp'
 import madads from 'src/assets/MadAds.png?width=350&webp'
+import debate from 'src/assets/Debate.png?width=350&webp'
 import eventx from 'src/assets/EventX.jpeg?width=350&webp'
 import reading from 'src/assets/ReadingSideDoodle.svg?width=350&webp'
 import boardgame from 'src/assets/BoardGameNight.png?width=350&webp'
@@ -20,13 +21,6 @@ export const events: LexisEvent[] = [
     image: verse,
     bg: '#ebe0bc',
     text: '#000000',
-  },
-  {
-    name: 'Spin The Wheel',
-    link: 'spin_the_wheel',
-    image: spinTheWheel,
-    bg: '#771C99',
-    text: '#F2EDDB',
   },
   {
     name: 'Writing Lab',
@@ -80,9 +74,9 @@ export const events: LexisEvent[] = [
   {
     name: 'Debate',
     link: 'debate',
-    image: '/TODO.png',
-    bg: '#8CD4EB',
-    text: '#000000',
+    image: debate,
+    bg: '#404040',
+    text: '#FEFEFE',
   },
   {
     name: 'Event X',
@@ -91,6 +85,16 @@ export const events: LexisEvent[] = [
     bg: '#231F20',
     text: '#ffffff',
   },
+  {
+    name: 'Open Mic',
+    link: 'open_mic',
+    image: openmic,
+    bg: '#010101',
+    text: '#FDF9E5',
+  },
+]
+
+export const stalls: LexisEvent[] = [
   {
     name: 'Reading Room',
     link: 'reading_room',
@@ -106,10 +110,17 @@ export const events: LexisEvent[] = [
     text: '#000000',
   },
   {
-    name: 'Open Mic',
-    link: 'open_mic',
-    image: openmic,
-    bg: '#010101',
-    text: '#FDF9E5',
+    name: 'Spin The Wheel',
+    link: 'spin_the_wheel',
+    image: spinTheWheel,
+    bg: '#771C99',
+    text: '#F2EDDB',
+  },
+  {
+    name: 'And More',
+    link: 'and_more',
+    image: '/TODO.png',
+    bg: '#771C99',
+    text: '#F2EDDB',
   },
 ]

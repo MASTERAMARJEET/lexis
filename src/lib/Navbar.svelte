@@ -22,7 +22,7 @@
     <img src={logo} alt="LEXIS" class="mx-4 h-20" />
   </a>
   <!-- Non-mobile Nav -->
-  <div class="hidden w-full justify-between text-gray-200 sm:flex">
+  <div class="hidden w-full justify-between text-gray-200 md:flex">
     {#each links as { path, title, activeClass }}
       <a
         href={$url(path)}
@@ -35,13 +35,13 @@
   <!-- Mobile Nav -->
   <button
     on:click={() => (isOpen = !isOpen)}
-    class="mx-2 cursor-pointer p-2 sm:hidden"
+    class="mx-2 cursor-pointer p-2 md:hidden"
   >
     <Hamburger open={isOpen} />
   </button>
   <div
     class={clsx(
-      'fixed flex top-0 left-0 h-full w-screen flex-col justify-evenly items-center bg-black sm:hidden transition-all -z-10',
+      'fixed flex top-0 left-0 h-full w-screen flex-col justify-evenly items-center bg-black md:hidden transition-all -z-10',
       {
         '-top-[100%]': !isOpen,
       },
