@@ -7,9 +7,12 @@
 
   let selected: string | undefined
   onMount(() => (selected = getSubLink('stalls_&_more')))
-  const backNavigate = () => $goto('/stalls_&_more')
+  const closeHandler = () => {
+    $goto('/stalls_&_more')
+    selected = undefined
+  }
 </script>
 
-<SharedLayout things={stalls} {selected} {backNavigate}>
+<SharedLayout things={stalls} {selected} {closeHandler}>
   <slot />
 </SharedLayout>

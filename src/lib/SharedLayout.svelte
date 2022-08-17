@@ -7,7 +7,7 @@
 
   export let things: LexisEvent[]
   export let selected: string | undefined
-  export let backNavigate: () => void
+  export let closeHandler: () => void
 
   const lockScroll = (selected: string | undefined) => {
     if (selected) {
@@ -17,10 +17,6 @@
     }
   }
   $: selected, lockScroll(selected)
-  const closeHandler = () => {
-    backNavigate()
-    selected = undefined
-  }
 </script>
 
 <AnimateSharedLayout type="crossfade">
