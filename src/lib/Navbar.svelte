@@ -3,7 +3,7 @@
   import clsx from 'clsx'
   import Hamburger from './Hamburger.svelte'
   // @ts-ignore
-  import logo from 'src/assets/lexiis.png?width=150&webp'
+  import logo from 'src/assets/lexiis.png?width=200&webp'
 
   export let children = $layout.children
   let isOpen = false
@@ -19,7 +19,7 @@
   class="fixed z-10 flex w-full items-center justify-between bg-black px-4 py-2 sm:gap-x-[15%] sm:px-10"
 >
   <a href={$url('/')} class="flex-1 sm:flex-initial">
-    <img src={logo} alt="LEXIS" class="mx-4 aspect-[9/5] h-20" />
+    <img src={logo} alt="LEXIS" class="mx-4 h-20" />
   </a>
   <!-- Non-mobile Nav -->
   <div class="hidden w-full justify-between text-gray-200 sm:flex">
