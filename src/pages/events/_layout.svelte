@@ -7,7 +7,9 @@
 
   let selected: string | undefined
   onMount(() => (selected = getSubLink('events')))
-  const backNavigate = () => $goto('/events')
+  const backNavigate = () => {
+    $goto('/events')
+  }
 </script>
 
 <SharedLayout things={events} {selected} {backNavigate}>

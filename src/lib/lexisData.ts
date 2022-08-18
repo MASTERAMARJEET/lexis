@@ -8,6 +8,7 @@ import impromptu from 'src/assets/Impromptu.png?width=350&webp'
 import scifi from 'src/assets/Sci-Fi.png?width=350&webp'
 import opus from 'src/assets/Opus.png?width=350&webp'
 import madads from 'src/assets/MadAds.png?width=350&webp'
+import dublin from 'src/assets/Dublin.jpg?width=350&webp'
 import debate from 'src/assets/Debate.png?width=350&webp'
 import eventx from 'src/assets/EventX.jpeg?width=350&webp'
 import reading from 'src/assets/ReadingSideDoodle.svg?width=350&webp'
@@ -67,7 +68,7 @@ export const events: LexisEvent[] = [
   {
     name: 'Dublin Wager',
     link: 'dublin_wager',
-    image: '/TODO.png',
+    image: dublin,
     bg: '#000000',
     text: '#ffffff',
   },
