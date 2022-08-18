@@ -24,7 +24,7 @@
   <div
     use:motion
     class={clsx(
-      'absolute lg:top-36 lg:bottom-8 lg:left-8 lg:right-8 top-28 p-6 left-4 right-4 bottom-4 rounded-lg flex lg:flex-row flex-col items-center overflow-auto',
+      'absolute lg:top-36 lg:bottom-8 lg:left-8 lg:right-8 top-28 p-6 left-4 right-4 bottom-4 rounded-lg flex lg:flex-row flex-col items-start overflow-auto',
     )}
     style="background-color: {event.bg}; color: {event.text}"
   >

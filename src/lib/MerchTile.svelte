@@ -5,9 +5,7 @@
   export let className: string
 </script>
 
-<p
-  class="sticky top-24 my-4 rounded-lg bg-gray-lexis p-2 text-center text-3xl uppercase"
->
+<p class="sticky top-24 my-4 bg-gray-lexis p-2 text-center text-3xl uppercase">
   {merch.title}
 </p>
 {#each merch.items as item}

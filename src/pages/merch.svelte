@@ -22,6 +22,6 @@
   <!-- Bookmark -->
   <MerchTile
     merch={merchs['bookmark']}
-    className="min-w-[20vw] rounded-lg bg-white-lexis p-6 shadow-lg"
+    className="min-w-[20vw] rounded-lg bg-white-lexis p-2 md:p-6 shadow-lg"
   />
 </div>

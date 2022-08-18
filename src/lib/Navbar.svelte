@@ -18,7 +18,11 @@
 <nav
   class="fixed z-10 flex w-full items-center justify-between bg-black px-4 py-2 sm:gap-x-[15%] sm:px-10"
 >
-  <a href={$url('/')} class="flex-1 sm:flex-initial">
+  <a
+    href={$url('/')}
+    class="flex-1 sm:flex-initial"
+    on:click={() => (isOpen = false)}
+  >
     <img src={logo} alt="LEXIS" class="mx-4 h-20" />
   </a>
   <!-- Non-mobile Nav -->
