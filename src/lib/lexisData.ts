@@ -25,6 +25,14 @@ import bookmark2 from 'src/assets/bookmark-2.png?width=500&webp'
 import bookmark3 from 'src/assets/bookmark-3.png?width=500&webp'
 import bookmark4 from 'src/assets/bookmark-4.png?width=500&webp'
 
+export interface LexisEvent {
+  name: string
+  link: string
+  image: string
+  bg: string
+  text: string
+}
+
 export const events: LexisEvent[] = [
   {
     name: 'Verse',
@@ -152,3 +160,5 @@ export const merchs = {
     items: [bookmark1, bookmark2, bookmark3, bookmark4],
   },
 }
+export type MerchRecord = typeof merchs
+export type Merch = MerchRecord[keyof MerchRecord]
