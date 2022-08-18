@@ -118,6 +118,13 @@ export const stalls: LexisEvent[] = [
     text: '#F2EDDB',
   },
   {
+    name: 'Book Exchange',
+    link: 'book_exchange',
+    image: '/TODO.png',
+    bg: '#E6E7DC',
+    text: '#000000',
+  },
+  {
     name: 'And More',
     link: 'and_more',
     image: '/TODO.png',

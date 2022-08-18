@@ -1,1 +1,1 @@
-<span class="font-bold"><slot /></span>
+<strong class="font-bold"><slot /></strong>
