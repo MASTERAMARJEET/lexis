@@ -43,7 +43,6 @@
 </div>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
   .font {
     font-family: 'Source Serif Pro', serif;
   }

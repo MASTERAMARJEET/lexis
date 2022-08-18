@@ -1,5 +1,6 @@
 // @ts-nocheck
 import type { LexisEvent } from 'src/types'
+
 import verse from 'src/assets/VERSE.png?width=350&webp'
 import spinTheWheel from 'src/assets/SpinTheWheel.png?width=350&webp'
 import writingLab from 'src/assets/LexisWritingLab.png?width=350&webp'
@@ -14,6 +15,15 @@ import eventx from 'src/assets/EventX.jpeg?width=350&webp'
 import reading from 'src/assets/ReadingSideDoodle.svg?width=350&webp'
 import boardgame from 'src/assets/BoardGameNight.png?width=350&webp'
 import openmic from 'src/assets/OpenMic.png?width=350&webp'
+
+import badge from 'src/assets/badge.png?width=450&webp'
+import journal from 'src/assets/Journal-b.png?width=400&webp'
+import mug1 from 'src/assets/mug_1.png?width=400&webp'
+import mug2 from 'src/assets/mug_2.png?width=400&webp'
+import bookmark1 from 'src/assets/bookmark-1.png?width=500&webp'
+import bookmark2 from 'src/assets/bookmark-2.png?width=500&webp'
+import bookmark3 from 'src/assets/bookmark-3.png?width=500&webp'
+import bookmark4 from 'src/assets/bookmark-4.png?width=500&webp'
 
 export const events: LexisEvent[] = [
   {
@@ -132,3 +142,13 @@ export const stalls: LexisEvent[] = [
     text: '#F2EDDB',
   },
 ]
+
+export const merchs = {
+  mug: { title: 'Mug', items: [mug1, mug2] },
+  journal: { title: 'Journal Cover', items: [journal] },
+  badge: { title: 'Badge', items: [badge] },
+  bookmark: {
+    title: 'Bookmark',
+    items: [bookmark1, bookmark2, bookmark3, bookmark4],
+  },
+}

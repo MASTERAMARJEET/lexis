@@ -2,7 +2,7 @@
   // @ts-ignore
   import logo from 'src/assets/lexiis_transparent.png?width=700&webp'
   import { prefetch } from '@roxi/routify'
-  prefetch('/events')
+  prefetch('/events', {})
 </script>
 
 <div
@@ -34,9 +34,6 @@
 </div>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
   .cursive {
     font-family: 'Great Vibes', cursive;
   }
