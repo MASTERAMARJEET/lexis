@@ -31,7 +31,7 @@
     <img
       src={event.image}
       alt={event.name}
-      class="h-[50vmax] min-h-[50vmax] lg:mr-8 lg:h-[35vmax] lg:min-h-[35vmax]"
+      class="mx-auto h-[50vmax] min-h-[50vmax] lg:mr-8 lg:ml-0 lg:h-[35vmax] lg:min-h-[35vmax]"
     />
     <div class="lg:text-lg">
       <slot />
