@@ -4,10 +4,13 @@
   import AnimateSharedLayout from 'svelte-motion/src/components/AnimateSharedLayout/AnimateSharedLayout.svelte'
   import AnimatePresence from 'svelte-motion/src/components/AnimatePresence/AnimatePresence.svelte'
   import type { LexisEvent } from './lexisData'
+  import { onDestroy, onMount } from 'svelte'
+  import { getSubLink } from './utils'
+  import { goto } from '@roxi/routify'
 
   export let things: LexisEvent[]
-  export let selected: string | undefined
-  export let backNavigate: () => void
+  export let rootPage: string
+  let selected: string | undefined
 
   const lockScroll = (selected: string | undefined) => {
     if (selected) {
@@ -16,11 +19,23 @@
       document.body.style.overflow = 'auto'
     }
   }
-  $: selected, lockScroll(selected)
   const closeHandler = () => {
-    backNavigate()
+    $goto(`/${rootPage}`)
     selected = undefined
   }
+  const onBackButton = () => {
+    selected = getSubLink(rootPage)
+    console.log('navigated', getSubLink(rootPage))
+  }
+
+  $: selected, lockScroll(selected)
+  onMount(() => {
+    selected = getSubLink(rootPage)
+    window.addEventListener('popstate', onBackButton)
+  })
+  onDestroy(() => {
+    window.removeEventListener('popstate', onBackButton)
+  })
 </script>
 
 <AnimateSharedLayout type="crossfade">
