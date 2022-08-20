@@ -2,7 +2,6 @@
 import type { LexisEvent } from 'src/types'
 
 import verse from 'src/assets/VERSE.png?width=350&webp'
-import spinTheWheel from 'src/assets/SpinTheWheel.png?width=350&webp'
 import writingLab from 'src/assets/LexisWritingLab.png?width=350&webp'
 import coffeeCigarettes from 'src/assets/CoffeeCigarettesandMore.png?width=350&webp'
 import impromptu from 'src/assets/Impromptu.png?width=350&webp'
@@ -12,9 +11,12 @@ import madads from 'src/assets/MadAds.png?width=350&webp'
 import dublin from 'src/assets/Dublin.jpg?width=350&webp'
 import debate from 'src/assets/Debate.png?width=350&webp'
 import eventx from 'src/assets/EventX.jpeg?width=350&webp'
-import reading from 'src/assets/ReadingSideDoodle.svg?width=350&webp'
-import boardgame from 'src/assets/BoardGameNight.png?width=350&webp'
 import openmic from 'src/assets/OpenMic.png?width=350&webp'
+
+import reading from 'src/assets/Reading Room.png?width=350&webp'
+import boardgame from 'src/assets/BoardGameNight.png?width=350&webp'
+import spinTheWheel from 'src/assets/SpinTheWheel.png?width=350&webp'
+import bookExchange from 'src/assets/Book Exchange.png?width=350&webp'
 
 import badge from 'src/assets/badge.png?width=450&webp'
 import journal from 'src/assets/Journal-b.png?width=400&webp'
@@ -118,8 +120,8 @@ export const stalls: LexisEvent[] = [
     name: 'Reading Room',
     link: 'reading_room',
     image: reading,
-    bg: '#E6E7DC',
-    text: '#000000',
+    bg: '#211A18',
+    text: '#FDFBF9',
   },
   {
     name: 'Board Games Night',
@@ -138,9 +140,9 @@ export const stalls: LexisEvent[] = [
   {
     name: 'Book Exchange',
     link: 'book_exchange',
-    image: '/TODO.png',
-    bg: '#E6E7DC',
-    text: '#000000',
+    image: bookExchange,
+    bg: '#EF7E6B',
+    text: '#FFFC4A',
   },
   {
     name: 'And More',
