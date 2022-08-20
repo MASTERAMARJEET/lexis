@@ -18,7 +18,7 @@
   Sci-fi, as the name suggests, is the science fiction event of Lexis 2.0 where
   you can finally materialize the obnoxious ideas in your mind which were
   perhaps lost to logic in a long journey of thoughts. This is a creative
-  writing (and drawing!) event wherein we will provide the instructions and
+  writing event wherein we will provide the instructions and
   questions a week before Lexis 2.0 takes place. Stay tuned!
 </P>
 
