@@ -6,7 +6,7 @@
   import type { LexisEvent } from './lexisData'
   import { onDestroy, onMount } from 'svelte'
   import { getSubLink } from './utils'
-  import { goto } from '@roxi/routify'
+  // import { goto } from '@roxi/routify'
 
   export let things: LexisEvent[]
   export let rootPage: string
@@ -20,7 +20,8 @@
     }
   }
   const closeHandler = () => {
-    $goto(`/${rootPage}`)
+    // $goto(`/${rootPage}`)
+    history.back()
     selected = undefined
   }
   const onBackButton = () => {
