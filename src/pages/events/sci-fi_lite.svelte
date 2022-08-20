@@ -5,7 +5,7 @@
   import Strong from 'src/md/Strong.svelte'
 </script>
 
-<H1>Sci-Fi Lite</H1>
+<H1>Sci-Fi</H1>
 <Blockquote>
   “ We spend our entire lives trying to tell stories about ourselves –they’re
   the essence of memory. It is how we make living in this unfeeling accidental

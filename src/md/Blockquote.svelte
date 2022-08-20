@@ -14,6 +14,6 @@
     />
   </svg>
   <div class="relative z-10">
-    <p class="text-gray-800 dark:text-inherit sm:text-xl"><em> <slot /></em></p>
+    <p class="text-inherit sm:text-xl"><em> <slot /></em></p>
   </div>
 </blockquote>
