@@ -3,6 +3,7 @@
   import H2 from 'src/md/H2.svelte'
   import List from 'src/md/List.svelte'
   import P from 'src/md/P.svelte'
+  import Strong from 'src/md/Strong.svelte'
 </script>
 
 <H1>Writing Lab</H1>
@@ -34,3 +35,9 @@
     board.
   </li>
 </List>
+
+<P>
+  <Strong>Organiser:</Strong>
+  Satbhav Voleti
+</P>
+<P><Strong>Contact:</Strong> +91 95024 75535</P>

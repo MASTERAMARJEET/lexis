@@ -62,4 +62,4 @@
   <Strong>Organiser:</Strong>
   Gurpahul Singh
 </P>
-<P><Strong>Contact: 9023241000</Strong></P>
+<P><Strong>Contact:</Strong> 9023241000</P>

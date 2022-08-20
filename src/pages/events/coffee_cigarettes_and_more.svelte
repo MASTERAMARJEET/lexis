@@ -21,4 +21,4 @@
   <Strong>Organiser:</Strong>
   Satbhav Voleti
 </P>
-<P><Strong>Contact: +91 95024 75535</Strong></P>
+<P><Strong>Contact:</Strong> +91 95024 75535</P>

@@ -34,4 +34,6 @@
 <P>
   <Strong>Organiser:</Strong> Meghna Dutta
 </P>
-<Strong>Contact:</Strong> +91-9591183748
+<P>
+  <Strong>Contact:</Strong> +91-9591183748
+</P>

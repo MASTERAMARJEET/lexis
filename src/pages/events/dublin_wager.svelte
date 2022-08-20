@@ -48,4 +48,4 @@
   <Strong>Organiser:</Strong>
   Abhishek Sunamudi
 </P>
-<P><Strong>Contact: +91 6371 770710</Strong></P>
+<P><Strong>Contact:</Strong> +91 6371 770710</P>

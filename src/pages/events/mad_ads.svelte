@@ -50,4 +50,4 @@
   <Strong>Organiser:</Strong>
   Anchit Bhair
 </P>
-<P><Strong>Contact: 8617772338</Strong></P>
+<P><Strong>Contact:</Strong> 8617772338</P>
