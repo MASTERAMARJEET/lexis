@@ -4,6 +4,7 @@
   import P from 'src/md/P.svelte'
   import Strong from 'src/md/Strong.svelte'
   import List from 'src/md/List.svelte'
+  import Link from 'src/md/Link.svelte'
 </script>
 
 <H1>Dublin Wager</H1>
@@ -20,6 +21,11 @@
   <i>
     P.S: Did you know that peanut oil is used as an ingredient in dynamite?
   </i>
+</P>
+
+<P>
+  <Strong>Registeration Form:</Strong>
+  <Link href="https://forms.gle/fJFgV8QEobXfFoKv6" />
 </P>
 
 <H2>Rules</H2>
