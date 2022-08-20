@@ -17,6 +17,7 @@
     'Sai Sagole',
     'Shreyash Borkar',
     'Omkar Sahu',
+    'Anurit Dey',
     'Harshith Sairaj',
   ]
 </script>
