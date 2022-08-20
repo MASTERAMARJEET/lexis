@@ -27,6 +27,10 @@
   Ishita Jena
 </P>
 <P>
+  <Strong>Special Credits:</Strong>
+  Sumit Garai
+</P>
+<P>
   <Strong>Contact:</Strong>
   +91 919337 918392
 </P>

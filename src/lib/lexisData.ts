@@ -50,7 +50,7 @@ export const events: LexisEvent[] = [
   },
   {
     name: 'Coffee, Cigarettes and More',
-    link: 'coffee_cigarates_and_more',
+    link: 'coffee_cigarettes_and_more',
     image: coffeeCigarettes,
     bg: '#8CD4EB',
     text: '#000000',
@@ -63,8 +63,8 @@ export const events: LexisEvent[] = [
     text: '#98907C',
   },
   {
-    name: 'Sci-Fi Lite',
-    link: 'sci-fi_lite',
+    name: 'Sci-Fi',
+    link: 'sci-fi',
     image: scifi,
     bg: '#000000',
     text: '#EAFF06',
