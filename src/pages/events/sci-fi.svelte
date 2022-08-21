@@ -3,6 +3,7 @@
   import H1 from 'src/md/H1.svelte'
   import P from 'src/md/P.svelte'
   import Strong from 'src/md/Strong.svelte'
+  import Link from 'src/md/Link.svelte'
 </script>
 
 <H1>Sci-Fi</H1>
@@ -18,8 +19,18 @@
   Sci-fi, as the name suggests, is the science fiction event of Lexis 2.0 where
   you can finally materialize the obnoxious ideas in your mind which were
   perhaps lost to logic in a long journey of thoughts. This is a creative
-  writing event wherein we will provide the instructions and
-  questions a week before Lexis 2.0 takes place. Stay tuned!
+  writing event wherein we will provide the instructions and questions a week
+  before Lexis 2.0 takes place. Stay tuned!
+</P>
+
+<P>
+  <Strong>Registeration Form:</Strong>
+  <Link href="https://forms.gle/nnW2i3kbGj92Figw6" />
+</P>
+
+<P>
+  <Strong>Rule Book:</Strong>
+  <Link href="https://lexis.vercel.app/Sci_Fi_rules.pdf" />
 </P>
 
 <P>
