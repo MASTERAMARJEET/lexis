@@ -4,7 +4,7 @@
   import P from 'src/md/P.svelte'
   import Strong from 'src/md/Strong.svelte'
   import List from 'src/md/List.svelte'
-  import Link from 'src/md/Link.svelte'
+  import AutoLink from 'src/md/AutoLink.svelte'
 </script>
 
 <H1>Dublin Wager</H1>
@@ -25,7 +25,7 @@
 
 <P>
   <Strong>Registeration Form:</Strong>
-  <Link href="https://forms.gle/fJFgV8QEobXfFoKv6" />
+  <AutoLink href="https://forms.gle/fJFgV8QEobXfFoKv6" />
 </P>
 
 <H2>Rules</H2>

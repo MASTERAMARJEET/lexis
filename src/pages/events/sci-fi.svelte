@@ -3,7 +3,9 @@
   import H1 from 'src/md/H1.svelte'
   import P from 'src/md/P.svelte'
   import Strong from 'src/md/Strong.svelte'
+  import AutoLink from 'src/md/AutoLink.svelte'
   import Link from 'src/md/Link.svelte'
+  import rulebook from 'src/assets/Sci_Fi _rules.pdf'
 </script>
 
 <H1>Sci-Fi</H1>
@@ -25,12 +27,12 @@
 
 <P>
   <Strong>Registeration Form:</Strong>
-  <Link href="https://forms.gle/nnW2i3kbGj92Figw6" />
+  <AutoLink href="https://forms.gle/nnW2i3kbGj92Figw6" />
 </P>
 
 <P>
   <Strong>Rule Book:</Strong>
-  <Link href="https://lexis.vercel.app/Sci_Fi_rules.pdf" />
+  <Link href={rulebook}>Sci_Fi_rules.pdf</Link>
 </P>
 
 <P>
