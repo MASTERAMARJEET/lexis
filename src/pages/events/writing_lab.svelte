@@ -7,7 +7,7 @@
 </script>
 
 <H1>Writing Lab</H1>
-
+<H2>10:00 AM on 27th Aug @ G02</H2>
 <P>
   To seek new ways to write, to search for our most creative sources, we need to
   hold our initial impulses back. You may have wanted to write something but do

@@ -1,10 +1,12 @@
 <script lang="ts">
   import H1 from 'src/md/H1.svelte'
+  import H2 from 'src/md/H2.svelte'
   import P from 'src/md/P.svelte'
   import Strong from 'src/md/Strong.svelte'
 </script>
 
 <H1>Event X</H1>
+<H2>4:00 PM on 27th Aug @ G05</H2>
 <P>
   We know as much about this event as you do. In short, nobody knows anything
   about this. However, what we can promise you is fun! Whether you are an

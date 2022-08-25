@@ -7,6 +7,7 @@
 </script>
 
 <H1>Opus</H1>
+<H2>4:30 PM on 28th Aug @ G02</H2>
 <P>
   We are told not to judge a book by its cover. But let's admit it, they are the
   ones that grab our attention and tempt us to reach out towards the bookshelf.

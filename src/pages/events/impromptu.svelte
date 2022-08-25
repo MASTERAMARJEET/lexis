@@ -6,6 +6,7 @@
 </script>
 
 <H1>Impromptu</H1>
+<H2>11:30 AM on 27th Aug @ G05</H2>
 <P>
   Can you find something happy in a desolate painting of a desert? Or something
   sad in a wholesome portrait of a reunion? In Impromptu, we shall try to see

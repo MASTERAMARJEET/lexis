@@ -7,6 +7,7 @@
 </script>
 
 <H1>Mad Ads</H1>
+<H2>2:00 PM on 27th Aug @ G02</H2>
 <P>
   Who said ads can't be crazy?? Is there any restriction to how creative one can
   be?? In fact the madness of creativity often comes out when we hardly have
@@ -15,28 +16,32 @@
 </P>
 <H2>Registration</H2>
 <List>
+  <li>There's no pre registration required.</li>
+
+  <li>Teams can report to the venue: G02-LHC, on spot.</li>
+
   <li>
-    Registration for the teams will open one day before the event and will close
-    45 minutes before the event begins.
-  </li>
-  <li>
-    On the day of the event all teams (pre registered or not) will have to
-    report to the registration desk.
+    A lottery of prompts shall start at 2:00pm itself, on a first come first
+    serve basis.
   </li>
 </List>
+<P>
+  <em> So the earlier you come the more time you get to prepare your skit. </em>
+  Enactment of the ads shall start around 3pm.
+</P>
 <H2>Rules</H2>
 <List>
   <li>
-    Teams have to present an advertisement based on the given topics that will
+    Teams have to present an advertisement based on the given prompts that will
     be chosen by the team members on lottery basis.
   </li>
+  <li>Teams with 2 to 4 people can participate.</li>
+  <li>Topics shall be provided to the teams on spot.</li>
+  <li>45 min time shall be given for the teams to prepare the skit.</li>
   <li>Each team should give a tagline for their ad.</li>
-  <li>Teams with 1 to 4 people can participate.</li>
-  <li>Topics shall be provided to the teams on spot</li>
-  <li>45 min time shall be given for the teams to prepare the skit</li>
   <li>
-    The skit should be at least 30 seconds and at most 3 minutes, after which
-    there will be a buzzer and a final buzzer at 3.5 minutes.
+    The skit should be at least 30 seconds and at most 3 minutes. There’ll be a
+    buzzer at 2.5 minutes and a final buzzer at 3 minutes.
   </li>
 </List>
 <H2>Judging</H2>

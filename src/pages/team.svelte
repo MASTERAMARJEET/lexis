@@ -10,13 +10,12 @@
     'Ishita Jena',
     'Abhishek Sunamudi',
     'Gurpahul Singh',
+    'Omkar Sahu',
   ]
 
   let designPublicity = [
     'Isha Bhagwat',
     'Sai Sagole',
-    'Shreyash Borkar',
-    'Omkar Sahu',
     'Anurit Dey',
     'Harshith Sairaj',
   ]

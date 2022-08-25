@@ -7,6 +7,7 @@
 </script>
 
 <H1>War of Words</H1>
+<H2>11:00 AM on 28th Aug @ G05</H2>
 <P>
   Do you often find yourselves in an argument with your friends, family or ‘tus
   amantes’? It’s time to showcase your convincing powers and win over, not just

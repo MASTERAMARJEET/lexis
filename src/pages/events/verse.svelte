@@ -6,6 +6,7 @@
 </script>
 
 <H1>Verse</H1>
+<H2>3:00 PM on 28th Aug @ G05</H2>
 <P>
   A pen, a paper and a few words. That's all it takes for a downpour of emotions
   on paper. Poetry is a country, a form, a language at its most powerful and

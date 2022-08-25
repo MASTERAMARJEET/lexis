@@ -2,6 +2,7 @@
   import H1 from 'src/md/H1.svelte'
   import H2 from 'src/md/H2.svelte'
   import P from 'src/md/P.svelte'
+  import List from 'src/md/List.svelte'
 </script>
 
 <H1>Spin The Wheel</H1>
@@ -14,13 +15,31 @@
 
 <H2>Rules</H2>
 
+<List>
+  <li>
+    Players will first spin the wheel to land on a category to guess. The
+    categories are : authors and poets, books and poems, idioms and phrases.
+  </li>
+  <li>
+    Based on the category, words will appear on the screen, but the letters will
+    not be visible to the participant.
+  </li>
+  <li>
+    Participants will have 60 seconds to guess all the letters of the
+    phrase/idiom, author’s/poet’s name or poem/book title with a maximum of 10
+    wrong guesses.
+  </li>
+  <li>
+    If participants guess correctly, they will get the chance to spin the wheel
+    to land on a prize.
+  </li>
+  <li>
+    Players might land on a spoke with no prizes, so all the best and may the
+    odds be in your favour!
+  </li>
+</List>
 <P>
-  A phrase, author’s name or English idiom will be put on the screen, but the
-  letters will not be visible to the participant. Participants will have 90
-  seconds to guess all the letters of the phrase, author’s name or English
-  idiom. The participant will spin a wheel before the game starts to land on a
-  prize that they could potentially win if they guess all the letters on the
-  screen before time runs out. The wheel can have wild spokes like “no prize for
-  this round” or “Lose a turn”, so all the best and may the odds be in your
-  favour!
+  (Note: If players want play again, they will have to pay an additional 10
+  rupees each time. First round free, second round 10 rupees, 3rd round 20
+  rupees and so on)
 </P>

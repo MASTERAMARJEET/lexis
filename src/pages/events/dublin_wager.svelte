@@ -8,6 +8,7 @@
 </script>
 
 <H1>Dublin Wager</H1>
+<H2>12:30 PM on 28th Aug @ 107</H2>
 <P>
   Want to answer some brain racking and mind = blown! type questions? To cater
   to the tinkering brains buzzing with cool facts and interesting trivia, we

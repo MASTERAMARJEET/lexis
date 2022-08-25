@@ -1,6 +1,7 @@
 <script lang="ts">
   import Blockquote from 'src/md/Blockquote.svelte'
   import H1 from 'src/md/H1.svelte'
+  import H2 from 'src/md/H2.svelte'
   import P from 'src/md/P.svelte'
   import Strong from 'src/md/Strong.svelte'
   import AutoLink from 'src/md/AutoLink.svelte'
@@ -9,6 +10,7 @@
 </script>
 
 <H1>Sci-Fi</H1>
+<H2>Online</H2>
 <Blockquote>
   “ We spend our entire lives trying to tell stories about ourselves –they’re
   the essence of memory. It is how we make living in this unfeeling accidental
