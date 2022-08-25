@@ -19,6 +19,9 @@ module.exports = {
       transitionTimingFunction: {
         DEFAULT: 'cubic-bezier(0.68, -0.6, 0.32, 1.6)',
       },
+      height: {
+        remain: 'calc(100vh - 6rem)',
+      },
     },
     boxShadow: {
       DEFAULT: `0.3px 0.5px 0.7px hsl(0deg 0% 2% / 0.36),

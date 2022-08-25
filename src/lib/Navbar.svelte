@@ -16,7 +16,7 @@
 </script>
 
 <nav
-  class="fixed z-10 flex w-full items-center justify-between bg-black px-4 py-2 sm:gap-x-[15%] sm:px-10"
+  class="fixed z-10 flex w-full items-center justify-between bg-black px-4 py-2 sm:gap-x-[7.5%] sm:px-10"
 >
   <a
     href={$url('/')}
@@ -30,7 +30,10 @@
     {#each links as { path, title, activeClass }}
       <a
         href={$url(path)}
-        class={clsx('text-2xl hover:scale-125 transition', activeClass)}
+        class={clsx(
+          'text-xl lg:text-2xl hover:scale-125 transition',
+          activeClass,
+        )}
       >
         {title}</a
       >

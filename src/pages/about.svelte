@@ -4,7 +4,7 @@
   <p
     class="mx-6 mt-8 text-center text-4xl font-bold text-white sm:text-5xl lg:col-start-2"
   >
-    LEXIS 2022 - Our Vision
+    LEXIS - Vision of the OGs
   </p>
   <p>
     As a child is born, one of the first few things he hears from his mother's
