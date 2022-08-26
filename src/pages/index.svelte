@@ -6,7 +6,7 @@
 </script>
 
 <div
-  class="h-remain grid w-full items-center justify-around lg:grid-cols-2 lg:px-8"
+  class="grid h-remain w-full items-center justify-around lg:grid-cols-2 lg:px-8"
 >
   <div class="flex flex-col items-center">
     <img
@@ -25,6 +25,11 @@
     <p class="display my-4 text-center text-4xl text-white-lexis sm:text-5xl">
       @ IISER Kolkata
     </p>
+    <div class="mx-auto my-6 transition hover:scale-110">
+      <a href="/schedule" class="rounded bg-red-lexis p-4 font-bold text-white"
+        >See Schedule</a
+      >
+    </div>
     <div class="mx-auto my-6 transition hover:scale-110">
       <a href="/events" class="rounded bg-red-lexis p-4 font-bold text-white"
         >Explore Events</a

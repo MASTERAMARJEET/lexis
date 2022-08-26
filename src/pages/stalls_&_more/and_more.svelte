@@ -2,4 +2,4 @@
   import H1 from 'src/md/H1.svelte'
 </script>
 
-<H1>More Stalls Coming Soon</H1>
+<H1>Many more stalls to explore..</H1>
