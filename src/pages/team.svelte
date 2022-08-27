@@ -11,6 +11,7 @@
     'Abhishek Sunamudi',
     'Gurpahul Singh',
     'Omkar Sahu',
+    'Aesha Lahiri',
   ]
 
   let designPublicity = [
