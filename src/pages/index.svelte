@@ -16,6 +16,7 @@
     />
     <p class="cursive text-center text-5xl text-white-lexis sm:text-7xl">
       The Literary Fest
+This is dev branch
     </p>
   </div>
   <div class="flex flex-col  px-2 lg:col-start-2">
