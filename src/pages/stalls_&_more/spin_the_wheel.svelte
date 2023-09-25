@@ -7,10 +7,7 @@
 
 <H1>Spin The Wheel</H1>
 <P>
-  Did you know that seemingly useless literary trivia could win you prizes? Now
-  is your chance to showcase your literary sense and convince yourself that all
-  the time you spent gathering trifles to show off wasn’t such a complete waste
-  after all.
+  A crowd favourite of Lexis 2.0, Spin the Wheel is back! In a hangman-inspired game, STW players will have to guess a phrase for a given topic within a fixed amount of time—too many wrong guesses, and game over.
 </P>
 
 <H2>Rules</H2>
@@ -18,15 +15,15 @@
 <List>
   <li>
     Players will first spin the wheel to land on a category to guess. The
-    categories are : authors and poets, books and poems, idioms and phrases.
+    categories are: authors and poets, books and poems, idioms and phrases.
   </li>
   <li>
     Based on the category, words will appear on the screen, but the letters will
     not be visible to the participant.
   </li>
   <li>
-    Participants will have 60 seconds to guess all the letters of the
-    phrase/idiom, author’s/poet’s name or poem/book title with a maximum of 10
+    Participants will have 20 seconds to guess all the letters of the
+    phrase/idiom, author's/poet's name or poem/book title with a maximum of 10
     wrong guesses.
   </li>
   <li>

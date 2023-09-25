@@ -8,14 +8,12 @@
 </script>
 
 <H1>Dublin Wager</H1>
-<H2>12:30 PM on 28th Aug @ 107</H2>
+<H2>10:30 AM on 15th Oct @ 107</H2>
 <P>
-  Want to answer some brain racking and mind = blown! type questions? To cater
-  to the tinkering brains buzzing with cool facts and interesting trivia, we
-  bring you the flagship LEXIS quiz event, Dublin Wager. It will be a GENERAL
-  quiz hosted by well known quizmaster - Arijit Sen, who is an alumnus of Monash
-  University, Australia and currently a creative strategist at Capgemini
-  Technologies.
+  It is a known fact that humans like to be tested and to compete against each other to assert dominance over the opposition. It has historically been proven that it is the Brain and Brawn who comes out on top. Quizzing provides a brilliant activity to keep the same spirit of competition with your opponents using your brainpower by forcing one to think outside the box to work on trivia-based questions, with the hints or relations that are to be searched for in the questions. With this same objective in mind, we bring you Dublin Wager, The Quizzing event of Lexis!
+</P>
+<P>
+  The Quizmaster for GNQ is none other than Arijit Sen! Arijit, a techie by profession and a quizmaster by passion, has conducted pan India quizzes for schools, colleges, and corporate houses like ITC, Cadburys, SBI, IBM, etc.
 </P>
 
 <P>
@@ -26,27 +24,21 @@
 
 <P>
   <Strong>Registeration Form:</Strong>
-  <AutoLink href="https://forms.gle/fJFgV8QEobXfFoKv6" />
+  <!-- <AutoLink href="https://forms.gle/fJFgV8QEobXfFoKv6" /> -->
 </P>
 
 <H2>Rules</H2>
 <List>
+  <li>The theme of the quiz shall be General Theme. </li>
   <li>
     Open to college students of a maximum of 3 members per team (cross-college
     allowed, please produce valid ID cards).
   </li>
   <li>Two rounds - Prelims and Finale/Mains.</li>
-  <li>
-    Prelims will be in a written format, where the teams will have to write
-    answers to the questions presented by the Quizmaster.
-  </li>
-  <li>The top 8 teams will proceed to the Finale.</li>
-  <li>Finale round will have standard quizzing rules - Bounce and pounce.</li>
-  <li>Pounce duration: 10-15 seconds after reading the question.</li>
-  <li>Top 3 teams will be awarded prizes.</li>
+  <li>The first round will be the elimination round and the top 8 teams will proceed to the Finale.</li>
 </List>
 <P>
   <Strong>Organiser:</Strong>
-  Abhishek Sunamudi
+  Rutvik Ashish Mahajan
 </P>
 <P><Strong>Contact:</Strong> +91 6371 770710</P>

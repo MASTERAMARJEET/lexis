@@ -7,31 +7,23 @@
 </script>
 
 <H1>Opus</H1>
-<H2>4:30 PM on 28th Aug @ G02</H2>
+<H2>5:00 PM on 14th Oct @ G02</H2>
 <P>
-  We are told not to judge a book by its cover. But let's admit it, they are the
-  ones that grab our attention and tempt us to reach out towards the bookshelf.
-  Whether covered with layers of references slowly peeled off as you pore
-  through the pages, or giving you a feel of what is about to ensue, book cover
-  rightly serves as the gateway to your promising journey. So why not try out
-  this exciting art form for yourself?
+  Opus is a chance for artists and literature enthusiasts to put their skills to the test. How well can you decipher a book and use your creativity to put together a cover that captures its essence? In Opus we find out how effectively your book cover catches a reader's eye and allures them to itself. There are stories that need your illustrations!
 </P>
 
 <H2>Rules</H2>
 <List>
-  <li>Participation is individual</li>
+  <li>Individual participation.  </li>
   <li>
     Drawing materials will be provided by us. Additional materials need to be
     discussed with the organiser before bringing.
   </li>
   <li>
-    Participants will be given three choices for medium: watercolour, pencil
-    sketch and pencil colour (will specify the details after procurement of
-    materials)
+    Participants will get 3 hours to design a book cover.
   </li>
   <li>
-    Participant will be able to choose a genre from the list and a book will be
-    assigned to them on spot based on the genre.
+    The participant can choose a genre and a random book in the genre will be assigned to them. 
   </li>
   <li>
     Synopsis and other relevant details will be provided. Plot summary or any
@@ -41,13 +33,15 @@
     creatures, once you see the respective covers, you might not be able to
     think further, so beware!
   </li>
+  <li>The final artwork will be judged based on creativity, originality, and ability to convey the book's contents
+  </li>
 </List>
 
 <P>
   <Strong>Organiser:</Strong>
-  Surajit Manna
+  Arya Mhatre
 </P>
 <P>
   <Strong>Contact:</Strong>
-  +91 8617326310
+  +91 81089 95653
 </P>

@@ -3,7 +3,7 @@
   import clsx from 'clsx'
   import Hamburger from './Hamburger.svelte'
   // @ts-ignore
-  import logo from 'src/assets/lexiis.png?width=200&webp'
+  import logo from 'src/assets/logo_bold.svg?width=400&webp'
 
   export let children = $layout.children
   let isOpen = false
