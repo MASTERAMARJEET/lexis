@@ -22,11 +22,6 @@
   </i>
 </P>
 
-<P>
-  <Strong>Registeration Form:</Strong>
-  <!-- <AutoLink href="https://forms.gle/fJFgV8QEobXfFoKv6" /> -->
-</P>
-
 <H2>Rules</H2>
 <List>
   <li>The theme of the quiz shall be General Theme. </li>

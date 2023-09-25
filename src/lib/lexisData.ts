@@ -15,7 +15,7 @@ import openmic from '/src/assets/events/OpenMic.png?width=350&webp'
 import jam from '/src/assets/events/JAM.png?width=350&webp'
 
 import reading from '/src/assets/more/readingroom.png?width=350&webp'
-import boardgame from '/src/assets/more/BoardGames.png?width=350&webp'
+import boardgame from '/src/assets/more/BoardGames3.png?width=350&webp'
 import spinTheWheel from '/src/assets/more/SpinTheWheel.png?width=350&webp'
 import bookExchange from '/src/assets/more/BookExchange.png?width=350&webp'
 
