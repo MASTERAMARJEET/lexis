@@ -1,6 +1,6 @@
 <script lang="ts">
   // @ts-ignore
-  import logo from 'src/assets/lexiis_transparent.png?width=700&webp'
+  import logo from 'src/assets/logo_bold-removebg-preview.png?width=700&webp'
   import { prefetch } from '@roxi/routify'
   prefetch('/events', {})
 </script>
@@ -12,7 +12,7 @@
     <img
       src={logo}
       alt="logo"
-      class="mx-auto w-[80vw] md:w-[65vw] lg:row-start-1 lg:w-[50vw]"
+      class="mx-auto w-[80vw] md:w-[65vw] lg:row-start-1 lg:w-[40vw]"
     />
     <p class="cursive text-center text-5xl text-white-lexis sm:text-7xl">
       The Literary Fest
@@ -20,7 +20,7 @@
   </div>
   <div class="flex flex-col  px-2 lg:col-start-2">
     <p class="display my-4 text-center text-4xl text-white-lexis sm:text-5xl">
-      27th and 28th August 2022
+      13th, 14th and 15th October 2023
     </p>
     <p class="display my-4 text-center text-4xl text-white-lexis sm:text-5xl">
       @ IISER Kolkata
@@ -45,4 +45,5 @@
   .display {
     font-family: 'Fredericka the Great', cursive;
   }
+
 </style>

@@ -6,42 +6,26 @@
   import Strong from 'src/md/Strong.svelte'
 </script>
 
-<H1>Mad Ads</H1>
-<H2>2:00 PM on 27th Aug @ G02</H2>
+<H1>Mad Adz</H1>
+<H2>3:00 PM on 14th Oct @ G02</H2>
 <P>
   Who said ads can't be crazy?? Is there any restriction to how creative one can
   be?? In fact the madness of creativity often comes out when we hardly have
   time to think! Engage with us in this acting cum advertising event of Mad Ads:
   'Act, Advertise, Improvise'.
 </P>
-<H2>Registration</H2>
-<List>
-  <li>There's no pre registration required.</li>
 
-  <li>Teams can report to the venue: G02-LHC, on spot.</li>
-
-  <li>
-    A lottery of prompts shall start at 2:00pm itself, on a first come first
-    serve basis.
-  </li>
-</List>
-<P>
-  <em> So the earlier you come the more time you get to prepare your skit. </em>
-  Enactment of the ads shall start around 3pm.
-</P>
-<H2>Rules</H2>
+<H2>Details</H2>
 <List>
-  <li>
-    Teams have to present an advertisement based on the given prompts that will
-    be chosen by the team members on lottery basis.
-  </li>
   <li>Teams with 2 to 4 people can participate.</li>
+  <li>Registrations shall begin a few days before the event.</li>
+  <li>Spot entries are accepted and are most welcomed.</li>
   <li>Topics shall be provided to the teams on spot.</li>
-  <li>45 min time shall be given for the teams to prepare the skit.</li>
-  <li>Each team should give a tagline for their ad.</li>
+  <li>40 + 10 min time shall be given for the teams to prepare the skit.</li>
   <li>
-    The skit should be at least 30 seconds and at most 3 minutes. There’ll be a
-    buzzer at 2.5 minutes and a final buzzer at 3 minutes.
+    The skit should be at least 30 seconds and at most 3 minutes.
+  </li>
+  <li>There’s no restriction on how creative or humorous one can be in presenting the ads. However vulgarity can lead to disqualification based on the judge’s discretion.
   </li>
 </List>
 <H2>Judging</H2>
