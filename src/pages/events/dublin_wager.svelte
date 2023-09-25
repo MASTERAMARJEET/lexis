@@ -13,7 +13,7 @@
   It is a known fact that humans like to be tested and to compete against each other to assert dominance over the opposition. It has historically been proven that it is the Brain and Brawn who comes out on top. Quizzing provides a brilliant activity to keep the same spirit of competition with your opponents using your brainpower by forcing one to think outside the box to work on trivia-based questions, with the hints or relations that are to be searched for in the questions. With this same objective in mind, we bring you Dublin Wager, The Quizzing event of Lexis!
 </P>
 <P>
-  The Quizmaster for GNQ is none other than Arijit Sen! Arijit, a techie by profession and a quizmaster by passion, has conducted pan India quizzes for schools, colleges, and corporate houses like ITC, Cadburys, SBI, IBM, etc.
+  The Quizmaster for Dublin Wager is none other than Arijit Sen! Arijit, a techie by profession and a quizmaster by passion, has conducted pan India quizzes for schools, colleges, and corporate houses like ITC, Cadburys, SBI, IBM, etc.
 </P>
 
 <P>
@@ -34,6 +34,6 @@
 </List>
 <P>
   <Strong>Organiser:</Strong>
-  Rutvik Ashish Mahajan
+  Abhratanu Ray
 </P>
-<P><Strong>Contact:</Strong> +91 6371 770710</P>
+<P><Strong>Contact:</Strong> +91 81786 88948</P>

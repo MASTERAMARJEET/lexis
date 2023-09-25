@@ -22,8 +22,7 @@
 
 <P>
   <Strong>Organiser:</Strong>
-  Monish Majumdar,
-  Rutvik Ashish Mahajan
+  Monish Majumdar
 </P>
 <P>
   <Strong>Contact:</Strong>
