@@ -18,7 +18,7 @@
 
 <P>
   <Strong>Registeration Form:</Strong>
-  <AutoLink href="https://docs.google.com/forms/d/e/1FAIpQLSdOdIc--okajbl3M5kyIymI8alNnsfvSUz_ObSpAQUh1MVvcA/viewform" />
+  <AutoLink href="https://shorturl.at/iDYZ5" />
 </P>
 
 <H2>Rules</H2>

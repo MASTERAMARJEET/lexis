@@ -13,7 +13,6 @@
     'Diptanuj Sarkar',
     'Jesneil Lauren Lewis',
     'Monish Majumdar',
-    'Rutvik Ashish Mahajan',
     'Satbhav Voleti',
     'Sneha Pradhan',
   ]
