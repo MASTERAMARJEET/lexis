@@ -32,6 +32,9 @@
   <li>Two rounds - Prelims and Finale/Mains.</li>
   <li>The first round will be the elimination round and the top 8 teams will proceed to the Finale.</li>
 </List>
+
+<P><Strong>Registration Link:</Strong> <AutoLink href="https://docs.google.com/forms/d/e/1FAIpQLSfd0aacqnzO6AB_D2hk8PUsqcJPCUUerzsdhytAkptgNiXd1Q/viewform" /></P>
+
 <P>
   <Strong>Organiser:</Strong>
   Abhratanu Ray
