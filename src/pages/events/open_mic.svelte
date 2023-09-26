@@ -14,9 +14,9 @@
 <P>The floor is yours, and we are yours to floor.</P>
 <P>
   <Strong>Organiser:</Strong>
-  Angshuman Bhandari
+  To be updated
 </P>
 <P>
   <Strong>Contact:</Strong>
-  +91 96417 98189
+  To be updated
 </P>
