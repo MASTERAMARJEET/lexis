@@ -9,7 +9,7 @@
   Who doesn't have fond memories of playing board games? Those days, when you
   couldn't go outside (or didn’t want to), you’d gather all your friends and sit
   down for a long session of Scotland Yard or Cluedo or Monopoly. To bring back
-  the nostalgia and rekindle your love for them, Lexis 2.0 presents Board Game
+  the nostalgia and rekindle your love for them, Lexis 3.0 presents Board Game
   Night. Hand-picked with classics as well as new entries, we welcome you to a
   night of extraordinary amusement with friends and strangers alike. Who knows,
   you might find some new friends in the process too!

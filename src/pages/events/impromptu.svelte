@@ -6,7 +6,7 @@
 </script>
 
 <H1>Impromptu</H1>
-<H2>11:30 AM on 27th Aug @ G05</H2>
+<H2>10:30 AM on 14th Oct @ G06</H2>
 <P>
   Can you find something happy in a desolate painting of a desert? Or something
   sad in a wholesome portrait of a reunion? In Impromptu, we shall try to see
@@ -18,13 +18,12 @@
 </P>
 
 <H2>Prelims</H2>
+In the preliminary round, a picture will be shown to the participant. They start off giving a positive/negative interpretation of the picture, and each time the moderator says switch, you change to negative/positive. Total time to speak per person will be 30 seconds. Max. 2 switches.
+A demo will be given for this.
 
-One picture with maximum two switches. You start by giving a positive/negative
-interpretation of the picture, and each time moderator says switch, you change
-to negative/positive. Total time: 30s
 <H2>Finals</H2>
-
-Maximum of 6 switches with the same rules. Total time 60s.
+The finalists will be playing a game of PowerPoint karaoke: They must deliver a presentation based on a set of slides they have never seen before.
+Judges will choose winners based on relevant criteria (creativity, clarity, appropriateness, and persuasiveness, among other things.)
 <P>
   <Strong>Organiser:</Strong> Aditya Dwarkesh
 </P>

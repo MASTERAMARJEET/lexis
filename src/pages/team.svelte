@@ -1,29 +1,26 @@
 <script lang="ts">
-  let committeeNames = ['Radha Tanya', 'Sanchay Agarwal', 'Amarjeet Kumar']
+  let committeeNames = [
+    'Dhavala Sai Srinivas', 
+    'Meghna Dutta',
+    'Oindrila Sarkar', 
+    'Tarak Yadav']
 
   let eventOrganizers = [
-    'Satbhav Voleti',
-    'Meghna Dutta',
     'Aditya Dwarkesh',
-    'Surajit Manna',
     'Anchit Bhair',
-    'Ishita Jena',
-    'Abhishek Sunamudi',
-    'Gurpahul Singh',
-    'Omkar Sahu',
-    'Aesha Lahiri',
+    'Angshuman Bhandari',
+    'Arya Mhatre',
+    'Diptanuj Sarkar',
+    'Jesneil Lauren Lewis',
+    'Monish Majumdar',
+    'Satbhav Voleti',
+    'Sneha Pradhan',
   ]
 
-  let designPublicity = [
-    'Isha Bhagwat',
-    'Sai Sagole',
-    'Anurit Dey',
-    'Harshith Sairaj',
-  ]
 </script>
 
 <div class="px-8">
-  <div class="head-font mt-14 text-center font-bold">Committee</div>
+  <div class="head-font mt-14 text-center font-bold">Core Committee</div>
   <div class="flex flex-row flex-wrap justify-around gap-6 sm:gap-8 lg:gap-12">
     {#each committeeNames as name}
       <div class="team-mem-name">
@@ -41,14 +38,6 @@
     {/each}
   </div>
 
-  <div class="head-font mt-14 text-center font-bold">Design and Publicity</div>
-  <div class="flex flex-row flex-wrap justify-around gap-6 sm:gap-8 lg:gap-12">
-    {#each designPublicity as name}
-      <div class="team-mem-name">
-        {name}
-      </div>
-    {/each}
-  </div>
 </div>
 
 <style>

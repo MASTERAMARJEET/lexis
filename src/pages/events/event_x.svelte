@@ -6,7 +6,7 @@
 </script>
 
 <H1>Event X</H1>
-<H2>4:00 PM on 27th Aug @ G05</H2>
+<H2>4:00 PM on 15th Oct @ G05</H2>
 <P>
   We know as much about this event as you do. In short, nobody knows anything
   about this. However, what we can promise you is fun! Whether you are an
@@ -22,9 +22,9 @@
 
 <P>
   <Strong>Organiser:</Strong>
-  Sai Srinivas Dhavala
+  Monish Majumdar
 </P>
 <P>
   <Strong>Contact:</Strong>
-  + 91 96478 05904
+  +91 96190 17707
 </P>
