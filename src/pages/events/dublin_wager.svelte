@@ -8,7 +8,7 @@
 </script>
 
 <H1>Dublin Wager</H1>
-<H2>10:30 AM on 15th Oct @ 107</H2>
+<H2>10:30 AM on 14th Oct @ 107</H2>
 <P>
   It is a known fact that humans like to be tested and to compete against each other to assert dominance over the opposition. It has historically been proven that it is the Brain and Brawn who comes out on top. Quizzing provides a brilliant activity to keep the same spirit of competition with your opponents using your brainpower by forcing one to think outside the box to work on trivia-based questions, with the hints or relations that are to be searched for in the questions. With this same objective in mind, we bring you Dublin Wager, The Quizzing event of Lexis!
 </P>
