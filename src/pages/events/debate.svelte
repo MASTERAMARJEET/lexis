@@ -14,7 +14,7 @@
 
 <P>
   <Strong>Organiser:</Strong>
-  Jesnil Lauren Lewis
+  Jesneil Lauren Lewis
 
 </P>
 <P><Strong>Contact:</Strong> +919820297994</P>

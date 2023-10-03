@@ -18,8 +18,7 @@
 <H2>Details</H2>
 <List>
   <li>Teams with 2 to 4 people can participate.</li>
-  <li>Registrations shall begin a few days before the event.</li>
-  <li>Spot entries are accepted and are most welcomed.</li>
+  <li>Registrations shall be conducted on spot, on the day of event itself.</li>
   <li>Topics shall be provided to the teams on spot.</li>
   <li>40 + 10 min time shall be given for the teams to prepare the skit.</li>
   <li>
