@@ -7,7 +7,7 @@
 </script>
 
 <H1>Mad Adz</H1>
-<H2>3:00 PM on 14th Oct @ G02</H2>
+<H2>2:30 PM on 14th Oct @ G02</H2>
 <P>
   Who said ads can't be crazy?? Is there any restriction to how creative one can
   be?? In fact the madness of creativity often comes out when we hardly have
@@ -20,10 +20,9 @@
   <li>Teams with 2 to 4 people can participate.</li>
   <li>Registrations shall be conducted on spot, on the day of event itself.</li>
   <li>Topics shall be provided to the teams on spot.</li>
-  <li>40 + 10 min time shall be given for the teams to prepare the skit.</li>
-  <li>
-    The skit should be at least 30 seconds and at most 3 minutes.
-  </li>
+  <li>Topics shall be names of products: eg: “Headphones”. One needs to advertise the product for what it's not generally used for, eg: "Headphones that can hear people's thoughts!"</li>
+  <li>Enactment starts from: 3:25 pm sharp.</li>
+  <li>The skit should be at least 30 seconds and at most 3 minutes.</li>
   <li>There’s no restriction on how creative or humorous one can be in presenting the ads. However vulgarity can lead to disqualification based on the judge’s discretion.
   </li>
 </List>
